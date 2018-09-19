@@ -7,7 +7,7 @@ Jekyll repository for the "Introduction to Excel Part II: Advanced Functions, Ch
 Abstract:
 Do you want to learn the basics of Excel and a few time-saving tips? 
 
-Part II of this workshop will show you how to:
+Part II of this workshop series will show you how to:
 - create charts and graphs
 - insert advanced functions
 

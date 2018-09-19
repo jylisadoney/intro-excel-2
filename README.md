@@ -1,6 +1,6 @@
 # Introduction to Excel: Part II
 
-Jekyll repository for the "Introduction to Excel: Part II" workshop at the University of Idaho Library.
+Jekyll repository for the "Introduction to Excel Part II: Advanced Functions, Charts, and Graphs" workshop at the University of Idaho Library.
 
 <link to repository>
 
@@ -11,7 +11,4 @@ Part II of this workshop will show you how to:
 - create charts and graphs
 - insert advanced functions
 
-Vist the <a href="https://jylisadoney.github.io/intro-excel-1/" target="_blank">Introduction to Excel: Part I</a> page to get a refresher on how to:
-- organize spreadsheets
-- format data
-- insert basic functions
+Need a refresher? Visit the <a href="https://jylisadoney.github.io/intro-excel-1/" target="_blank">Introduction to Excel Part I: Tips, Tricks, and Strategies</a> page.

@@ -3,7 +3,7 @@ title: Home
 ---
 # Introduction to Excel Part II: Advanced Functions, Charts, and Graphs
 
-Part II of this workshop will show you how to:
+Part II of this workshop series will show you how to:
 - create charts and graphs
 - insert advanced functions
 

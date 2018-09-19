@@ -101,7 +101,7 @@ Now, if you try to enter a date **before** 01/01/1999 or **after** today, you wi
 Now, when you want to enter text, you can only select from the **allowed options**.
 
 ### Remove data validation 	
-*Click and drag to highlight the cell(s) where you want to remove data validation
+* Click and drag to highlight the cell(s) where you want to remove data validation
 * Navigate to the `Data` tab and the `Data Tools` section
 * Hover and click the `Data Validation` icon
 * Click `Clear All`

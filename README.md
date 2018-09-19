@@ -1,4 +1,4 @@
-# Introduction to Excel: Part II
+# Introduction to Excel Part II: Advanced Functions, Charts, and Graphs
 
 Jekyll repository for the "Introduction to Excel Part II: Advanced Functions, Charts, and Graphs" workshop at the University of Idaho Library.
 

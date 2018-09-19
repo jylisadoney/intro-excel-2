@@ -8,7 +8,7 @@ Abstract:
 Do you want to learn the basics of Excel and a few time-saving tips? 
 
 Part II of this workshop series will show you how to:
-- create charts and graphs
 - insert advanced functions
+- create charts and graphs
 
 Need a refresher? Visit the <a href="https://jylisadoney.github.io/intro-excel-1/" target="_blank">Introduction to Excel Part I: Tips, Tricks, and Strategies</a> page.

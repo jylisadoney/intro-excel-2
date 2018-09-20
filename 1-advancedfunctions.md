@@ -6,9 +6,11 @@ Please download <a href="images/IntroExcelSampleWorkbook.xlsx" target="_blank">`
 
 **Throughout this workshop `Click` refers to a `Left Click` with your mouse**
 
-# Advanced Functions
+# Insert Advanced Functions
 
 Excel offers many other functions that you can use to work with your data. These include [math and trig](#math-and-trig), [statistical](#statistical), and [text](#text) functions.
+
+For a refresher on inserting functions, visit the <a href="https://jylisadoney.github.io/intro-excel-1/4-insert.html" target="_blank">Introduction to Excel Part 1: Insert Functions"</a> page.
 
 ## [Math and Trig](#math-and-trig)
 * Difference (no function exists)

@@ -1,5 +1,5 @@
 ---
-title: Advanced Functions
+title: Insert Advanced Functions
 nav: true
 ---
 Please download <a href="images/IntroExcelSampleWorkbook.xlsx" target="_blank">`IntroExcelSampleWorkbook.xlsx`</a> to follow along with workshop activities.

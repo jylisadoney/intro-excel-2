@@ -1,5 +1,5 @@
 ---
-title: Create
+title: Create Charts
 nav: true
 ---
 Please download <a href="images/IntroExcelSampleWorkbook.xlsx" target="_blank">`IntroExcelSampleWorkbook.xlsx`</a> to follow along with workshop activities.

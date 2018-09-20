@@ -1,12 +1,12 @@
 ---
-title: Advanced Features
+title: Utilize Advanced Features
 nav: true
 ---
 Please download <a href="images/IntroExcelSampleWorkbook.xlsx" target="_blank">`IntroExcelSampleWorkbook.xlsx`</a> to follow along with workshop activities.
 
 **Throughout this workshop `Click` refers to a `Left Click` with your mouse**
 
-# Advanced Features
+# Utilize Advanced Features
 
 Excel offers many other features that you can use to work with your data.
 

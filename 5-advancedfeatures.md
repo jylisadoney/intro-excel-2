@@ -10,7 +10,7 @@ Please download <a href="images/IntroExcelSampleWorkbook.xlsx" target="_blank">`
 
 Excel offers many other features that you can use to work with your data.
 
-These include [Templates](#templates) and [Data Validation](#data-validation). Links to [more help](#more-help) on each of these features, including [PivotTables](#pivottables), is available at the bottom of the page.
+These include [Templates](#templates) and [Data Validation](#data-validation). Links to [more help](#more-help) on each of these features is available at the bottom of the page.
 
 ## Templates
 
@@ -107,7 +107,7 @@ Now, when you want to enter text, you can only select from the **allowed options
 * Click `Clear All`
 * Click `OK`
 
-## More Help
+## [More Help](#more-help)
 ### Templates
 To learn more about `templates`, visit <a href="https://support.office.com/en-us/article/save-a-workbook-as-a-template-58c6625a-2c0b-4446-9689-ad8baec39e1e" target="_blank">Microsoft's Save a Workbook as a Template website</a>.
 
@@ -115,8 +115,3 @@ To learn more about `templates`, visit <a href="https://support.office.com/en-us
 To learn more about `data validation`, open Excel and navigate to the `Data` tab and the `Data Tools` section. 
 
 You can also visit <a href="https://support.office.com/en-us/article/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249" target="_blank">Microsoft's Apply Data Validation to Cells website</a>.
-
-### PivotTables
-PivotTables offer greater control and flexibility when presenting and analyzing data. To learn more about `PivotTables`, open Excel and navigate to the `Insert` tab and the `Charts` section.
-
-You can also visit <a href="https://support.office.com/en-us/article/Import-and-analyze-data-ccd3c4a6-272f-4c97-afbb-d3f27407fcde#ID0EAABAAA=PivotTables" target="_blank">Microsoft's PivotTables website</a>.

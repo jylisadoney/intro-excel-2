@@ -37,24 +37,30 @@ PivotTables contain four areas:
 * Filters
   * Fields you want to use to `isolate or focus` your data
 
-Let's say we want to create a PivotTable to see if there is a difference in Q1 sales based on whether or not an employee received a college degree related to sales.
+Let's say we want to create a PivotTable to see if there is a difference in the average `Total Sales` based on the `State` of the employee.
 
 * Navigate to the PivotTables Fields box
   * If this box disappears, `click` into the PivotTable
   * Naviate to the `Analyze` tab and the `Show` section
   * Click on `Field List`
-* Click on `Sales Q1` and `drag and drop` it in the `VALUES` section
-* Click on `College Degree` and  `drag and drop` it in the `ROWS` section
+* Click on `Total Sales` and `drag and drop` it in the `VALUES` section
+  * In the `VALUES` section, click on the drop-down for `Sum of Total Sales`
+  * Click on `Value Field Settings`
+  * In the `Summarize Values By` tab, click on `Average`
+  * Click `Number Format` and click on `Currency`
+  * Click OK, then click OK again
+* Click on `State` and  `drag and drop` it in the `ROWS` section
 
-Right now, our PivotTable shows that employees without a college degree related to sales had slightly higher Q1 sales compared to their colleagues.
+Right now, our PivotTable shows that employees in Pennsylvania had slightly higher `Total Sales` on average compared to their colleagues in Delaware.
 
-To see if the trend continues with `Q2 sales`:
-* Click on `Sales Q2` and `drag and drop` it in the `VALUES` section
+This may lead us to ask: Did employees who participated in `Professional Development` in either state have higher `Total Sales` on average than those who did not?
 
-It looks like we see a similar trend in Q2, but maybe the `State` of the employee makes a difference.
+To analyze this question:
+* Click on `Professional Development` and `drag and drop` it in the `ROWS` section
 
-To test this theory:
-* Click on `State` and `drag and drop` it in the `VALUES` section
+Now we can see that participation in `Professional Development` in Deleware was related to lower `Total Sales` on average compared to those who did not participate. In Pennsylvania `Professional Development` did not seem to have an impact on employee `Total Sales` on average.
+
+This PivotTable may lead us to investigate whether the `Professional Development` offered at the Delaware and Pennsylvania offices met company guidelines and standards.
 
 ## More Help
 

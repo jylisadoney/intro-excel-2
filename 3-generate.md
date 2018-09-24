@@ -6,6 +6,10 @@ Please download <a href="images/IntroExcelSampleWorkbook.xlsx" target="_blank">`
 
 **Throughout this workshop `Click` refers to a `Left Click` with your mouse**
 
+# Generate PivotTables
+
+In Excel, a PivotTable is a special type of table that allows you to summarize data and identify patterns, trends, or interesting comparisons.
+
 ## More Help
 
 ### PivotTables

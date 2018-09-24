@@ -10,7 +10,7 @@ Please download <a href="images/IntroExcelSampleWorkbook.xlsx" target="_blank">`
 
 In Excel, a PivotTable is a special type of table that allows you to summarize data and identify patterns, trends, or interesting comparisons.
 
-Today we will [Insert a Blank PivotTable](#insert-a-blank-pivottable), [Build a PivotTable](#build-a-pivottable), [Add a Timeline](#add-a-timeline), and [Create a PivotChart](#create-a-pivotchart)
+Today we will [insert a blank PivotTable](#insert-a-blank-pivottable), [build a PivotTable](#build-a-pivottable), [add a timeline](#add-a-timeline), and [create a PivotChart](#create-a-pivotchart)
 
 ## [Insert a Blank PivotTable](#insert-a-blank-pivottable)
 First, let's navigate to the `PivotTable sheet (or Sheet2)` in our workbook.

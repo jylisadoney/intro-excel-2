@@ -53,7 +53,7 @@ Let's say we want to create a PivotTable to see if there is a difference in the 
 
 Right now, our PivotTable shows that employees in Pennsylvania had slightly higher `Total Sales` on average compared to their colleagues in Delaware.
 
-This may lead us to ask: Did employees who participated in `Professional Development` in either state have higher `Total Sales` on average than those who did not?
+This may lead us to ask: `Did employees who chose to participate in Professional Development in either state have higher Total Sales on average than those who did not participate?`
 
 To analyze this question:
 * Click on `Professional Development` and `drag and drop` it in the `ROWS` section

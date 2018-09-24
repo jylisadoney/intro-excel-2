@@ -33,7 +33,7 @@ Since we only want to compare `sales in Q1 and Q2`, we aren't interested in Hire
 To remove the `Hire Date` from our chart:
 * Click on the chart
 * Click on the `Funnel Icon`
-* Under `Series`, click on `Total Sales` and `Hire Date` to uncheck the boxes
+* Under `Series`, click on `Hire Date` to uncheck the boxes
 * Click on `Apply`
 
 Our chart is looking much better - but including the state names in our chart makes it difficult to read.

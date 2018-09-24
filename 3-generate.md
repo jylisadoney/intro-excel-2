@@ -13,7 +13,8 @@ In Excel, a PivotTable is a special type of table that allows you to summarize d
 Today we will [insert a blank PivotTable](#insert-a-blank-pivottable), [build a PivotTable](#build-a-pivottable), [add a timeline](#add-a-timeline), and [create a PivotChart](#create-a-pivotchart)
 
 ## [Insert a Blank PivotTable](#insert-a-blank-pivottable)
-First, let's navigate to the `PivotTable sheet (or Sheet2)` in our workbook.
+
+First, let's navigate to `Sheet2` in our workbook.
 * Highlight all of our data
   * Option 1: Click on `Cell A1` and drag to highlight all data **OR**
   * Option 2: Hit `Ctrl A` on your keyboard (`Command A` for Mac users)

@@ -27,6 +27,12 @@ First, let's navigate to the `Employee Sales sheet (or Sheet1)` in our workbook.
 
 After inserting a blank PivotTable, we can now build a report (or PivotTable) based on the data.
 
+PivotTables contain four areas:
+1. Values: Fields you want to `measure`.
+1. Columns: Headings that represent your selected `values` 
+1. Rows: Fields you want to use to `group and categorize` your data
+1. Filters: Fields you want to use to `isolate or focus` your data
+
 ## More Help
 
 ### PivotTables

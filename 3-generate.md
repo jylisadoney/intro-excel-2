@@ -25,7 +25,7 @@ First, let's navigate to the `PivotTable sheet (or Sheet2)` in our workbook.
 * Under the `Choose where` options, select `New Worksheet`
 * Click OK
 
-[Build a PivotTable](#build-a-pivottable)
+## [Build a PivotTable](#build-a-pivottable)
 
 After inserting a blank PivotTable, we can now build a report (or PivotTable) based on the data.
 

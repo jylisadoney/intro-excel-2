@@ -28,19 +28,22 @@ First, let's navigate to `Sheet2` in our workbook.
 
 ## [Build a PivotTable](#build-a-pivottable)
 
-After inserting a blank PivotTable, we can now build a report (or PivotTable) based on the data.
+After inserting a blank PivotTable, we can now build a PivotTable based on the data.
 
-PivotTables contain four areas:
-* Values
-  * Fields you want to `measure`
+Our columns and the data within them are represented as `fields` that we can add to the PivotTable (or report).
+
+In PivotTables, we can place our `fields` in four different `areas`:
+* Filters
+  * Fields you want to use to `isolate or focus` your data
 * Columns
   * Headings that display the `unique values` from specific fields
 * Rows
   * Fields you want to use to `group and categorize` your data
-* Filters
-  * Fields you want to use to `isolate or focus` your data
+* Values
+  * Fields you want to `measure`
 
 ### Part 1
+
 Let's say we want to create a PivotTable to see whether students who attended `SI sessions` following `Test 1` had higher `Test 2` scores on average than those who did not.
 
 * Navigate to the PivotTables Fields box
@@ -58,6 +61,7 @@ Let's say we want to create a PivotTable to see whether students who attended `S
 * Click on `SI Sessions` and  `drag and drop` it in the `ROWS` section
 
 ### Part 2
+
 Right now, our PivotTable shows that on average, students who attended `SI Sessions` had a higher `Test 2` than those who did not. We also see that the number of `SI Sessions` attended makes a difference. On average, students who attended three or four `SI Sessions` had the greatest `Test 2` score increase.
 
 However, since this data is based on the average off all students, we might want to get more granular and view individual students, their `Test 2` scores, and the number of `SI Sessions` attended.
@@ -89,6 +93,7 @@ Now our chart helps us visualize the impact of `SI Session` attendance for our s
 ## More Help
 
 ### PivotTables
+
 PivotTables offer greater control and flexibility when presenting and analyzing data. To learn more about `PivotTables`, open Excel and navigate to the `Insert` tab and the `Charts` section.
 
 You can also visit <a href="https://support.office.com/en-us/article/Import-and-analyze-data-ccd3c4a6-272f-4c97-afbb-d3f27407fcde#ID0EAABAAA=PivotTables" target="_blank">Microsoft's PivotTables website</a>.

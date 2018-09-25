@@ -33,7 +33,7 @@ We can now see the `Developer` tab at the top of our Excel workbook.
 
 Let's navigate to the `Employee Sales sheet (or Sheet1)` in our workbook.
 
-
+Maybe we are interested in `recording a macro` that automatically calculates the average sales across quarters.
 
 ## [Helpful hints about macros](#helpful-hints-about-macros)
 

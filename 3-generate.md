@@ -40,6 +40,7 @@ PivotTables contain four areas:
 * Filters
   * Fields you want to use to `isolate or focus` your data
 
+### Part 1
 Let's say we want to create a PivotTable to see whether students who attended `SI sessions` following `Test 1` had higher `Test 2` scores on average than those who did not.
 
 * Navigate to the PivotTables Fields box
@@ -52,14 +53,11 @@ Let's say we want to create a PivotTable to see whether students who attended `S
   * In the `Summarize Values By` tab, click on `Average`
   * Click on `Number Format`,  click on `Number`, and change the `decimal places to zero`
   * Click OK, then click OK again
-* Click on `Test 2` and `drafg and drop` it in the `VALUES` section
- * In the `VALUES` section, click on the drop-down for `Test 2`
-  * Click on `Value Field Settings`
-  * In the `Summarize Values By` tab, click on `Average`
-  * Click on `Number Format`,  click on `Number`, and change the `decimal places to zero`
-  * Click OK, then click OK again
+* Click on `Test 2` and `drag and drop` it in the `VALUES` section
+  * Follow the steps above to `Summarize Values By` the average `Test 2` scores
 * Click on `SI Sessions` and  `drag and drop` it in the `ROWS` section
 
+### Part 2
 Right now, our PivotTable shows that on average, students who attended `SI Sessions` had a higher `Test 2` than those who did not. We also see that the number of `SI Sessions` attended makes a difference. On average, students who attended three or four `SI Sessions` had the greatest `Test 2` score increase.
 
 However, since this data is based on the average off all students, we might want to get more granular and view individual students, their `Test 2` scores, and the number of `SI Sessions` attended.

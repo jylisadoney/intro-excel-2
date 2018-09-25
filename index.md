@@ -13,7 +13,7 @@ Need a refresher? Visit the <a href="https://jylisadoney.github.io/intro-excel-1
 
 1. Bring a laptop with Excel installed or use one of ours
   * If your laptop doesn't have Excel, please follow <a href="https://www.uidaho.edu/infrastructure/its/self-help/ms-office?" target="_blank">the University of Idaho ITS instructions to download MS Office</a>
-1. Download <a href="images/IntroExcelSampleWorkbook.xlsx" target="_blank">`IntroExcelSampleWorkbook.xlsx`</a> to follow along with workshop activities.
+1. Download <a href="images/IntroExcel-Part2-SampleWorkbook.xlsx" target="_blank">`IntroExcel-Part2-SampleWorkbook.xlsx`</a> to follow along with workshop activities.
 
 <br>
 <a href="https://vivo.nkn.uidaho.edu/vivo/display/n104190" target="_blank">Questions about the workshop?</a>

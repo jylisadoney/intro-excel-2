@@ -10,6 +10,8 @@ Please download <a href="images/IntroExcel-Part2-SampleWorkbook.xlsx" target="_b
 
 In Excel, a PivotTable is a special type of table that allows you to summarize data and identify patterns, trends, or interesting comparisons.
 
+Excel sometimes uses the word `report` when talking about `PivotTables`.
+
 Today we will [insert a blank PivotTable](#insert-a-blank-pivottable), [build a PivotTable](#build-a-pivottable), and [create a PivotChart](#create-a-pivotchart)
 
 ## [Insert a Blank PivotTable](#insert-a-blank-pivottable)
@@ -30,7 +32,7 @@ First, let's navigate to `Sheet2` in our workbook.
 
 After inserting a blank PivotTable, we can now build a PivotTable based on the data.
 
-Our columns and the data within them are represented as `fields` that we can add to the PivotTable (or report).
+Our columns and the data within them are represented as `fields` that we can add to the PivotTable.
 
 In PivotTables, we can place our `fields` in four different `areas`:
 * Filters

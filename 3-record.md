@@ -164,6 +164,7 @@ Now we can record the `CopyPasteValuesMacro` action:
 * Click on `Paste Special`
 * Under `Paste`, click on `Values`
   * This will let us copy and paste just the text
+* Click OK
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`

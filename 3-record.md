@@ -48,14 +48,14 @@ We will focus on `recording a macro` for three types of tasks:
 * Click on `Use Relative References`
 * Click on `Record Macro`
 * Under `Macro name`, type a name for the macro
-  * Example: ColumnDeleteMacro
+  * Example: DeleteColumnMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
   * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
   * Example: Macro to delete a single column
 * Click OK to start recording
 
-Now we can record the `ColumnDeleteMacro` action:
+Now we can record the `DeleteColumnMacro` action:
 * Click on `Column B` (or the Title_Remark column) to highlight it
 * Right click, then click on `Delete`
 * Click on cell `A1`
@@ -87,6 +87,34 @@ Now we can record the `FormatISBNColumnMacro` action:
 * Click on `Stop Recording`
 
 ### [Applying sentence case to a specific column](#applying-sentence-case-to-a-specific-column)
+This macro will include four parts:
+1. Inserting a new column
+1. Inserting the PROPER function
+1. Copying and pasting values
+
+Since we already recorded a `DeleteColumnMacro` using `relative references`, we do not need to create another one to remove the duplicate column that is created.
+
+#### Part 1: Insert a new column
+* Click on cell `A1`
+* Navigate to the `Developer` tab and the `Code` section
+* If it isn't already selected, click on `Use Relative References`
+* Click on `Record Macro`
+* Under `Macro name`, type a name for the macro
+  * Example: InsertColumnMacro
+* In the `Store macro in` drop-down, select `Personal Macro Workbook`
+  * This makes the `macro` available to use across all Excel workbooks
+* Enter a description
+  * Example: Macro to insert a new column
+* Click OK to start recording
+
+Now we can record the `InsertColumnMacro` action:
+* Click on `Column B` (or the Author column) to highlight it
+* Right click, then click on `Insert`
+* Click on cell `A1`
+* Navigate to the `Developer` tab and the `Code` section
+* Click on `Stop Recording`
+
+#### Part 2: Insert the PROPER function
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`
@@ -96,7 +124,7 @@ Now we can record the `FormatISBNColumnMacro` action:
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
   * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
-  * Example: Macro to insert a blank column and format adjacent column using the PROPER function
+  * Example: Macro to insert the PROPER function in a whole column
 * Click OK to start recording
 
 Now we can record the `ProperFunctionMacro` action:
@@ -111,15 +139,31 @@ Now we can record the `ProperFunctionMacro` action:
 * Navigate to the `Home` tab and the `Editing` section
 * Click on `Fill`
 * Click on `Down` to copy the forumula to all relevant cells
-* Click on `Column B` to highlight it, if it isn't already
+* Click on cell `A1`
+* Navigate to the `Developer` tab and the `Code` section
+* Click on `Stop Recording`
+
+#### Part 3: Copy and paste values
+* Click on cell `A1`
+* Navigate to the `Developer` tab and the `Code` section
+* If it isn't already selected, click on `Use Relative References`
+* Click on `Record Macro`
+* Under `Macro name`, type a name for the macro
+  * Example: CopyPasteValuesMacro
+* In the `Store macro in` drop-down, select `Personal Macro Workbook`
+  * This makes the `macro` available to use across all Excel workbooks
+* Enter a description
+  * Example: Macro to copy and paste values
+* Click OK to start recording
+
+Now we can record the `CopyPasteValuesMacro` action:
+* Click on `Column B` to highlight it
 * Right click, then click on `Copy`
 * Click on `Column A` to highlight it
 * Right click on `Column A` 
 * Click on `Paste Special`
 * Under `Paste`, click on `Values`
   * This will let us copy and paste just the text
-* Click on `Column B` to highlight it
-* Right click, then click on `Delete`
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`

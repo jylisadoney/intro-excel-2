@@ -38,11 +38,11 @@ Let's navigate to `Sheet 3` in our workbook.
 Since this Excel worksheet stays consistent, we can `record macros` that allow us to automate certain tasks when we download future versions of this file.
 
 We will focus on `recording a macro` for three types of tasks:
-1. [Deleting a column](#deleting-a-column)
-1. [Formatting a column](#formatting-a-column)
-1. [Applying sentence case to a specific column](#applying-sentence-case-to-a-specific-column)
+1. [Delete a column](#delete-a-column)
+1. [Format a column](#format-a-column)
+1. [Apply sentence case to a specific column](#apply-sentence-case-to-a-specific-column)
 
-### [Deleting a column](#deleting-a-column)
+### [Delete a column](#delete-a-column)
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Use Relative References`
@@ -62,7 +62,7 @@ Now we can record the `DeleteColumnMacro` action:
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`
 
-### [Formatting a column](#formatting-a-column)
+### [Format a column](#format-a-column)
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`
@@ -86,15 +86,15 @@ Now we can record the `FormatISBNColumnMacro` action:
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`
 
-### [Applying sentence case to a specific column](#applying-sentence-case-to-a-specific-column)
+### [Apply sentence case to a specific column](#apply-sentence-case-to-a-specific-column)
 This macro will include four parts:
-1. Inserting a new column
-1. Inserting the PROPER function
-1. Copying and pasting values
+1. [Part 1: Insert a new column](#part-1-insert-a-new-column)
+1. [Part 2: Insert the PROPER function](#part-2-insert-the-proper-function)
+1. [Part 3: Copy and paste values](#part-3-copy-and-paste-values)
 
 Since we already recorded a `DeleteColumnMacro` using `relative references`, we do not need to create another one to remove the duplicate column that is created.
 
-#### Part 1: Insert a new column
+#### [Part 1: Insert a new column](#part-1-insert-a-new-column)
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`
@@ -114,7 +114,7 @@ Now we can record the `InsertColumnMacro` action:
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`
 
-#### Part 2: Insert the PROPER function
+#### [Part 2: Insert the PROPER function](#part-2-insert-the-proper-function)
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`
@@ -143,7 +143,7 @@ Now we can record the `ProperFunctionMacro` action:
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`
 
-#### Part 3: Copy and paste values
+#### [Part 3: Copy and paste values](#part-3-copy-and-paste-values)
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`

@@ -45,9 +45,8 @@ We will focus on `recording a macro` for three types of tasks:
 ## [Helpful hints about macros](#helpful-hints-about-macros)
 * Use `relative references`
 * Click on cell `A1` before you `start and stop` recording
-* Create `unique` macros names
-  * Use numbers to create an ordered list of tasks
-  * Ensure that names are descriptive
+* Create `unique` macros names that are recognizable
+  * Add a description to the description field
 * Record `separate macros` for each task
 
 ## More Help

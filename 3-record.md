@@ -38,9 +38,55 @@ Let's navigate to `Sheet 3` in our workbook.
 Since this Excel worksheet stays consistent, we can `record macros` that allow us to automate certain tasks when we download future versions of this file.
 
 We will focus on `recording a macro` for three types of tasks:
-1. Deleting unecessary columns 
-1. Formatting the ISBN column
-1. Changing capitalization to sentence case in the Title, Author, and Publisher columns
+1. [Deleting a column](#deleting-a-column)
+1. [Formatting a column](#formatting-a-column)
+1. [Applying sentence case to a specific column](#applying-sentence-case-to-a-specific-column)
+
+### [Deleting a column](#deleting-a-column)
+* Click on cell `A1`
+* Navigate to the `Developer` tab and the `Code` section
+* Click on `Use Relative References`
+* Click on `Record Macro`
+* Under `Macro name`, type a name for the macro
+  * Example: ColumnDeleteMacro
+* In the `Store macro in` drop-down, select `Personal Macro Workbook`
+  * This makes the `macro` available to use across all Excel workbooks
+* Enter a description
+  * Example: Macro to delete a single column
+* Click OK to start recording
+
+Now we can record the `ColumnDeleteMacro` action:
+* Click on `Column B` (or the Title_Remark column) to highlight it, then right click
+* Click on `Delete`
+* Click on cell `A1`
+* Navigate to the `Developer` tab and the `Code` section
+* Click on `Stop Recording`
+
+### [Formatting a column](#formatting-a-column)
+* Click on cell `A1`
+* Navigate to the `Developer` tab and the `Code` section
+* If it isn't already selected, click on `Use Relative References`
+* Click on `Record Macro`
+* Under `Macro name`, type a name for the macro
+  * Example: FormatISBNColumnMacro
+* In the `Store macro in` drop-down, select `Personal Macro Workbook`
+  * This makes the `macro` available to use across all Excel workbooks
+* Enter a description
+  * Example: Macro to format ISBN column to numbers
+* Click OK to start recording
+
+Now we can record the `FormatISBNColumnMacro` action:
+* Click on `Column E` (or the ISBN column) to highlight it, then right click
+* Click on `Format Cells`
+* Under Category, click on `Number`
+* Set the `Decimal Places` to `0`
+* Click OK
+* Resize the column if necessary
+* Click on cell `A1`
+* Navigate to the `Developer` tab and the `Code` section
+* Click on `Stop Recording`
+
+### [Applying sentence case to a specific column](#applying-sentence-case-to-a-specific-column)
 
 ## [Helpful hints about macros](#helpful-hints-about-macros)
 * Use `relative references`

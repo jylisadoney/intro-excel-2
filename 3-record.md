@@ -88,9 +88,9 @@ Now we can record the `FormatISBNColumnMacro` action:
 
 ### [Apply sentence case to a specific column](#apply-sentence-case-to-a-specific-column)
 This macro will include four parts:
-1. [Part 1: Insert a new column](#part-1-insert-a-new-column)
-1. [Part 2: Insert the PROPER function](#part-2-insert-the-proper-function)
-1. [Part 3: Copy and paste values](#part-3-copy-and-paste-values)
+* [Part 1: Insert a new column](#part-1-insert-a-new-column)
+* [Part 2: Insert the PROPER function](#part-2-insert-the-proper-function)
+* [Part 3: Copy and paste values](#part-3-copy-and-paste-values)
 
 Since we already recorded a `DeleteColumnMacro` using `relative references`, we do not need to create another one to remove the duplicate column that is created.
 

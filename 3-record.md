@@ -56,8 +56,8 @@ We will focus on `recording a macro` for three types of tasks:
 * Click OK to start recording
 
 Now we can record the `ColumnDeleteMacro` action:
-* Click on `Column B` (or the Title_Remark column) to highlight it, then right click
-* Click on `Delete`
+* Click on `Column B` (or the Title_Remark column) to highlight it
+* Right click, then click on `Delete`
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`
@@ -76,8 +76,8 @@ Now we can record the `ColumnDeleteMacro` action:
 * Click OK to start recording
 
 Now we can record the `FormatISBNColumnMacro` action:
-* Click on `Column E` (or the ISBN column) to highlight it, then right click
-* Click on `Format Cells`
+* Click on `Column E` (or the ISBN column) to highlight it
+* Right click, then click on `Format Cells`
 * Under Category, click on `Number`
 * Set the `Decimal Places` to `0`
 * Click OK
@@ -87,6 +87,42 @@ Now we can record the `FormatISBNColumnMacro` action:
 * Click on `Stop Recording`
 
 ### [Applying sentence case to a specific column](#applying-sentence-case-to-a-specific-column)
+* Click on cell `A1`
+* Navigate to the `Developer` tab and the `Code` section
+* If it isn't already selected, click on `Use Relative References`
+* Click on `Record Macro`
+* Under `Macro name`, type a name for the macro
+  * Example: ProperFunctionMacro
+* In the `Store macro in` drop-down, select `Personal Macro Workbook`
+  * This makes the `macro` available to use across all Excel workbooks
+* Enter a description
+  * Example: Macro to insert a blank column and format adjacent column using the PROPER function
+* Click OK to start recording
+
+Now we can record the `ProperFunctionMacro` action:
+* Click on `Column B` (or the Author column) to highlight it
+* Right click, then click on `Insert` to add a column
+* Click on `Cell B1`
+* Type `=PROPER(A1)`
+  * Option 1: Type `A1` **OR**
+  * Option 2: Click on `A1`
+* Hit `Enter` on your keyboard
+* Click on `Column B` to highlight it
+* Navigate to the `Home` tab and the `Editing` section
+* Click on `Fill`
+* Click on `Down` to copy the forumula to all relevant cells
+* Click on `Column B` to highlight it, if it isn't already
+* Right click, then click on `Copy`
+* Click on `Column A` to highlight it
+* Right click on `Column A` 
+* Click on `Paste Special`
+* Under `Paste`, click on `Values`
+  * This will let us copy and paste just the text
+* Click on `Column B` to highlight it
+* Right click, then click on `Delete`
+* Click on cell `A1`
+* Navigate to the `Developer` tab and the `Code` section
+* Click on `Stop Recording`
 
 ## [Helpful hints about macros](#helpful-hints-about-macros)
 * Use `relative references`

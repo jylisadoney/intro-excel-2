@@ -31,9 +31,16 @@ We can now see the `Developer` tab at the top of our Excel workbook.
 
 ## Record a macro
 
-Let's navigate to the `Employee Sales sheet (or Sheet1)` in our workbook.
+Let's navigate to `Sheet 3` in our workbook.
 
-Maybe we are interested in `recording a macro` that automatically calculates the average sales across quarters.
+`Sheet 3` is an example of a worksheet with consistent organization (i.e. number of columns, column headings, etc.). Although the actual data changes each month (titles, authors, etc. are different), the organization stays exactly the same and I complete the same formatting and organization tasks to make the sheet more readable every time I download a new version of the file.
+
+Since this Excel worksheet stays consistent, we can `record macros` that allow us to automate certain tasks when we download future versions of this file.
+
+We will focus on `recording a macro` for three tasks:
+1. Deleting unecessary columns 
+1. Formatting the ISBN column
+1. Changing capitalization to sentence case in the Title, Author, and Publisher columns
 
 ## [Helpful hints about macros](#helpful-hints-about-macros)
 

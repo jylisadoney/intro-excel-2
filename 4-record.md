@@ -37,12 +37,18 @@ Let's navigate to `Sheet 3` in our workbook.
 
 Since this Excel worksheet stays consistent, we can `record macros` that allow us to automate certain tasks when we download future versions of this file.
 
-We will focus on `recording a macro` for three tasks:
+We will focus on `recording a macro` for three types of tasks:
 1. Deleting unecessary columns 
 1. Formatting the ISBN column
 1. Changing capitalization to sentence case in the Title, Author, and Publisher columns
 
 ## [Helpful hints about macros](#helpful-hints-about-macros)
+* Use `relative references`
+* Click on cell `A1` before you `start and stop` recording
+* Create `unique` macros names
+  * Use numbers to create an ordered list of tasks
+  * Ensure that names are descriptive
+* Record `separate macros` for each task
 
 ## More Help
 

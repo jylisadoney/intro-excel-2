@@ -14,7 +14,7 @@ Today, we will [create a Bar Chart](#create-a-bar-chart) that compares each empl
 
 ## [Create a bar chart](#create-a-bar-chart)
 
-First, let's navigate to the `Employee Sales sheet (or Sheet1)` in our workbook.
+First, let's navigate to `Sheet1` in our workbook.
 * Highlight all of our data
   * Option 1: Click on `Cell A1` and drag to highlight all data **OR**
   * Option 2: Hit `Ctrl A` on your keyboard (`Command A` for Mac users)

@@ -48,14 +48,14 @@ We will focus on `recording a macro` for three types of tasks:
 * Click on `Use Relative References`
 * Click on `Record Macro`
 * Under `Macro name`, type a name for the macro
-  * Example: DeleteColumnMacro
+  * Example: BookListDeleteColumnMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
   * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
-  * Example: Macro to delete a single column
+  * Example: Macro to delete a single column in a book list.
 * Click OK to start recording
 
-Now we can record the `DeleteColumnMacro` action:
+Now we can record the `BookListDeleteColumnMacro` action:
 * Click on the `Title_Remark column` (or Column B) to highlight it
 * Right click, then click on `Delete`
 * Click on cell `A1`
@@ -68,14 +68,14 @@ Now we can record the `DeleteColumnMacro` action:
 * If it isn't already selected, click on `Use Relative References`
 * Click on `Record Macro`
 * Under `Macro name`, type a name for the macro
-  * Example: FormatISBNColumnMacro
+  * Example: BookListFormatISBNColumnMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
   * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
-  * Example: Macro to format ISBN column to numbers
+  * Example: Macro to format ISBN column to numbers in a book list.
 * Click OK to start recording
 
-Now we can record the `FormatISBNColumnMacro` action:
+Now we can record the `BookListFormatISBNColumnMacro` action:
 * Click on the `ISBN column` (or Column E) to highlight it
 * Right click, then click on `Format Cells`
 * Under Category, click on `Number`
@@ -92,7 +92,7 @@ This macro will include four parts:
 * [Part 2: Insert the PROPER function](#part-2-insert-the-proper-function)
 * [Part 3: Copy and paste values](#part-3-copy-and-paste-values)
 
-Since we already recorded a `DeleteColumnMacro` using `relative references`, we do not need to create another one to remove the duplicate column that is created.
+Since we already recorded a `BookListDeleteColumnMacro` using `relative references`, we do not need to create another one to remove the duplicate column that is created.
 
 #### [Part 1: Insert a new column](#part-1-insert-a-new-column)
 * Click on cell `A1`
@@ -100,14 +100,14 @@ Since we already recorded a `DeleteColumnMacro` using `relative references`, we 
 * If it isn't already selected, click on `Use Relative References`
 * Click on `Record Macro`
 * Under `Macro name`, type a name for the macro
-  * Example: InsertColumnMacro
+  * Example: BookListInsertColumnMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
   * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
-  * Example: Macro to insert a new column
+  * Example: Macro to insert a new column in a booklist.
 * Click OK to start recording
 
-Now we can record the `InsertColumnMacro` action:
+Now we can record the `BookListInsertColumnMacro` action:
 * Click on the `Author column` (or Column B)) to highlight it
 * Right click, then click on `Insert`
 * Click on cell `A1`
@@ -120,14 +120,14 @@ Now we can record the `InsertColumnMacro` action:
 * If it isn't already selected, click on `Use Relative References`
 * Click on `Record Macro`
 * Under `Macro name`, type a name for the macro
-  * Example: ProperFunctionMacro
+  * Example: BookListProperFunctionMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
   * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
-  * Example: Macro to insert the PROPER function in a whole column
+  * Example: Macro to insert the PROPER function in a whole column in a booklist.
 * Click OK to start recording
 
-Now we can record the `ProperFunctionMacro` action:
+Now we can record the `BookListProperFunctionMacro` action:
 * Click on `Cell B1`
 * Type `=PROPER(A1)`
   * Option 1: Type `A1` **OR**
@@ -147,14 +147,14 @@ Now we can record the `ProperFunctionMacro` action:
 * If it isn't already selected, click on `Use Relative References`
 * Click on `Record Macro`
 * Under `Macro name`, type a name for the macro
-  * Example: CopyPasteValuesMacro
+  * Example: BookListCopyPasteValuesMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
   * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
-  * Example: Macro to copy and paste values
+  * Example: Macro to copy and paste values in a booklist.
 * Click OK to start recording
 
-Now we can record the `CopyPasteValuesMacro` action:
+Now we can record the `BookListCopyPasteValuesMacro` action:
 * Click on `Column B` to highlight it
 * Right click, then click on `Copy`
 * Click on `Column A` to highlight it
@@ -169,7 +169,7 @@ Now we can record the `CopyPasteValuesMacro` action:
 
 ## [Helpful hints about macros](#helpful-hints-about-macros)
 * Use `relative references`
-* Click on cell `A1` before you `start and stop` recording
+* Click on cell `A1` before you `start and stop` recording to keep `relative references` consistent
 * Create `unique` macros names that are recognizable
   * Add a description to the description field
 * Record `separate macros` for each task

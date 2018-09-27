@@ -173,7 +173,7 @@ Since we already recorded a `BookListDeleteColumnMacro` using `relative referenc
 ## [Test a macro](#test-a-macro)
 Now that we have recorded these `macros`, let's test them on a new version of the same data.
 
-First, let's download `----`, open it on your computer, and click `enable editing` if prompted.
+First, let's download <a href="images/IntroExcel-Part2-SampleTestaMacroWorkbook.xlsx" target="_blank">`IntroExcel-Part2-SampleTestaMacroWorkbook.xlsx`</a>, open it on your computer, and click `enable editing` if prompted.
 
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section

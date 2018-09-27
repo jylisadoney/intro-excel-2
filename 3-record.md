@@ -12,13 +12,16 @@ If you frequently use Excel to work with similar worksheets and find yourself do
 
 `Macros` allow you to record specific actions and clicks and then run that `macro` in other workbooks.
 
-This lesson will show you how to [create a macro](#create-a-macro) and share a few [help hints about macros](#helpful-hints-about-macros).
+This lesson will show you how to all the steps needed to [create a macro](#create-a-macro) and share a few [help hints about macros](#helpful-hints-about-macros)
+1. [Enable the developer tab](#enable-the-developer-tab)
+1. [Record a macro](#record-a-macro)
+1. [Test a macros](#test-a-macro)
 
 ## [Create a macro](#create-a-macro)
 
 The `macro` tool is located under the `Developer` tab in Excel, which is hidden by default.
 
-## Enable the developer tab
+## [Enable the developer tab](#enable-the-developer-tab)
 
 To enable the `Developer` tab:
 * Click on `File`
@@ -29,7 +32,7 @@ To enable the `Developer` tab:
 
 We can now see the `Developer` tab at the top of our Excel workbook.
 
-## Record a macro
+## [Record a macro](#record-a-macro)
 
 Let's navigate to `Sheet 3` in our workbook.
 
@@ -167,14 +170,23 @@ Now we can record the `BookListCopyPasteValuesMacro` action:
 
 Since we already recorded a `BookListDeleteColumnMacro` using `relative references` that will delete the duplicate content in `Column B`, we do not need to create another one.
 
-#### Test Macros
+## [Test a macros](#test-a-macro)
 Now that we have recorded these `macros`, let's test them on a new version of the same data.
 
-* Download `----` and open it on your computer.
-* Click `enable editing` if prompted
+First, let's download `----`, open it on your computer, and click `enable editing` if prompted.
+
 * Click on cell `A1`
-* Navigate to the `Developer` tab and the `--` section
-* Click on `Run Macro`
+* Navigate to the `Developer` tab and the `Code` section
+* Click on `Macros`
+* Click to highlight the `BookListDeleteColumnMacro`
+* Click on `Run`
+
+We can then use the same steps to test the other macros:
+* BookListFormatISBNColumnMacro
+* BookListInsertColumnMacro
+* BookListProperFunctionMacro
+* BookListCopyPasteValuesMacro
+* BookListDeleteColumnMacro
 
 ## [Helpful hints about macros](#helpful-hints-about-macros)
 * Use `relative references`

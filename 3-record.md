@@ -167,6 +167,15 @@ Now we can record the `BookListCopyPasteValuesMacro` action:
 
 Since we already recorded a `BookListDeleteColumnMacro` using `relative references` that will delete the duplicate content in `Column B`, we do not need to create another one.
 
+#### Test Macros
+Now that we have recorded these `macros`, let's test them on a new version of the same data.
+
+* Download `----` and open it on your computer.
+* Click `enable editing` if prompted
+* Click on cell `A1`
+* Navigate to the `Developer` tab and the `--` section
+* Click on `Run Macro`
+
 ## [Helpful hints about macros](#helpful-hints-about-macros)
 * Use `relative references`
 * Click on cell `A1` before you `start and stop` recording to keep `relative references` consistent

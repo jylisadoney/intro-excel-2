@@ -92,8 +92,6 @@ This macro will include four parts:
 * [Part 2: Insert the PROPER function](#part-2-insert-the-proper-function)
 * [Part 3: Copy and paste values](#part-3-copy-and-paste-values)
 
-Since we already recorded a `BookListDeleteColumnMacro` using `relative references`, we do not need to create another one to remove the duplicate column that is created.
-
 #### [Part 1: Insert a new column](#part-1-insert-a-new-column)
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
@@ -104,7 +102,7 @@ Since we already recorded a `BookListDeleteColumnMacro` using `relative referenc
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
   * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
-  * Example: Macro to insert a new column in a booklist.
+  * Example: Macro to insert a new column in a book list.
 * Click OK to start recording
 
 Now we can record the `BookListInsertColumnMacro` action:
@@ -124,7 +122,7 @@ Now we can record the `BookListInsertColumnMacro` action:
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
   * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
-  * Example: Macro to insert the PROPER function in a whole column in a booklist.
+  * Example: Macro to insert the PROPER function in a whole column in a book list.
 * Click OK to start recording
 
 Now we can record the `BookListProperFunctionMacro` action:
@@ -151,7 +149,7 @@ Now we can record the `BookListProperFunctionMacro` action:
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
   * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
-  * Example: Macro to copy and paste values in a booklist.
+  * Example: Macro to copy and paste values in a book list.
 * Click OK to start recording
 
 Now we can record the `BookListCopyPasteValuesMacro` action:
@@ -166,6 +164,8 @@ Now we can record the `BookListCopyPasteValuesMacro` action:
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`
+
+Since we already recorded a `BookListDeleteColumnMacro` using `relative references` that will delete the duplicate content in `Column B`, we do not need to create another one.
 
 ## [Helpful hints about macros](#helpful-hints-about-macros)
 * Use `relative references`

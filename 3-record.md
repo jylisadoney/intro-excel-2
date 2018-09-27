@@ -56,7 +56,7 @@ We will focus on `recording a macro` for three types of tasks:
 * Click OK to start recording
 
 Now we can record the `DeleteColumnMacro` action:
-* Click on `Column B` (or the Title_Remark column) to highlight it
+* Click on the `Title_Remark column` (or Column B) to highlight it
 * Right click, then click on `Delete`
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
@@ -76,7 +76,7 @@ Now we can record the `DeleteColumnMacro` action:
 * Click OK to start recording
 
 Now we can record the `FormatISBNColumnMacro` action:
-* Click on `Column E` (or the ISBN column) to highlight it
+* Click on the `ISBN column` (or Column E) to highlight it
 * Right click, then click on `Format Cells`
 * Under Category, click on `Number`
 * Set the `Decimal Places` to `0`
@@ -108,7 +108,7 @@ Since we already recorded a `DeleteColumnMacro` using `relative references`, we 
 * Click OK to start recording
 
 Now we can record the `InsertColumnMacro` action:
-* Click on `Column B` (or the Author column) to highlight it
+* Click on the `Author column` (or Column B)) to highlight it
 * Right click, then click on `Insert`
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
@@ -128,8 +128,6 @@ Now we can record the `InsertColumnMacro` action:
 * Click OK to start recording
 
 Now we can record the `ProperFunctionMacro` action:
-* Click on `Column B` (or the Author column) to highlight it
-* Right click, then click on `Insert` to add a column
 * Click on `Cell B1`
 * Type `=PROPER(A1)`
   * Option 1: Type `A1` **OR**

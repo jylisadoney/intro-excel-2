@@ -15,7 +15,7 @@ If you frequently use Excel to work with similar worksheets and find yourself do
 This lesson will show you how to all the steps needed to [create a macro](#create-a-macro) and share a few [help hints about macros](#helpful-hints-about-macros)
 1. [Enable the developer tab](#enable-the-developer-tab)
 1. [Record a macro](#record-a-macro)
-1. [Test a macros](#test-a-macro)
+1. [Test a macro](#test-a-macro)
 
 ## [Create a macro](#create-a-macro)
 
@@ -170,7 +170,7 @@ Now we can record the `BookListCopyPasteValuesMacro` action:
 
 Since we already recorded a `BookListDeleteColumnMacro` using `relative references` that will delete the duplicate content in `Column B`, we do not need to create another one.
 
-## [Test a macros](#test-a-macro)
+## [Test a macro](#test-a-macro)
 Now that we have recorded these `macros`, let's test them on a new version of the same data.
 
 First, let's download `----`, open it on your computer, and click `enable editing` if prompted.

@@ -43,10 +43,9 @@ Let's navigate to `Sheet 3` in our workbook.
 
 Since this Excel worksheet stays consistent, we can `record macros` that allow us to automate certain tasks when we download future versions of this file.
 
-We will focus on `recording a macro` for three types of tasks:
+We will focus on `recording a macro` for two types of tasks:
 1. [Format a column](#format-a-column)
-1. [Apply sentence case to a specific column](#apply-sentence-case-to-a-specific-column)
-1. [Delete a column](#delete-a-column)
+1. [Apply the PROPER function to a specific column](#apply-the-proper-function-to-a-specific-column)
 
 ### [Format a column](#format-a-column)
 * Click on cell `A1`
@@ -71,7 +70,7 @@ Now we can record the `BookListFormatISBNColumnMacro` action:
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`
 
-### [Apply sentence case to a specific column](#apply-sentence-case-to-a-specific-column)
+### [Apply the PROPER function to a specific column](#apply-the-proper-function-to-a-specific-column)
 This macro will include four parts:
 * [Part 1: Insert a new column](#part-1-insert-a-new-column)
 * [Part 2: Insert the PROPER function](#part-2-insert-the-proper-function)

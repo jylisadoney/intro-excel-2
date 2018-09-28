@@ -204,7 +204,7 @@ To hide the `Personal Macro Workbook`:
 
 When you `record macros` or hide/unhide the `Personal Macro Workbook`, you must save your changes. You will see the following prompt When you attempt to close Excel after making changes to the `Personal Macro Workbook`:
 
-{% include figure.html file="PersonalMacroWorkbook_SavePrompt.jpg" alt="Excel workbook with terminology labels" caption="Microsoft Excel Personal Macro Workbook Save Prompt" %}
+{% include figure.html file="PersonalMacroWorkbook_SavePrompt.jpg" alt="Microsoft Excel Personal Macro Workbook Save Prompt" caption="Microsoft Excel Personal Macro Workbook Save Prompt" %}
 
 To save your changes, click `Save`.
 

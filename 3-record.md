@@ -218,3 +218,17 @@ To save your changes, click `Save`.
 ## More Help
 
 To learn more about `macros`, visit <a href="https://support.office.com/en-us/article/automate-tasks-with-the-macro-recorder-974ef220-f716-4e01-b015-3ea70e64937b" target="_blank">Microsoft's Macro website</a>.
+
+Follow the instructions below to find your `Personal Macro Workbook` on your computer:
+* Open `File Explorer` (or `Finder` on a Mac)
+* Navigate to `Local Disk (C:)`
+* Double-click on `Users`
+* Double-click on your `username`
+* At the top of the `File Explorer` window, navigate to the `View` tab and the `Show/hide` section
+* Check the box for `Hidden items`
+* Double-click on `AppData`
+* Double-click on `Roaming`
+* Double-click on `Microsoft`
+* Double-click on `Excel`
+* Double-click on `XLSTART`
+* Navigate to your `Personal Macro Workbook` (file name = PERSONAL.XLSB)

@@ -12,11 +12,13 @@ If you frequently use Excel to work with similar worksheets and find yourself do
 
 `Macros` allow you to record specific actions and clicks and then run that `macro` in other workbooks.
 
-This lesson will show you how to all the steps needed to [create a macro](#create-a-macro) and share a few [help hints about macros](#helpful-hints-about-macros)
+This lesson will show you how to all the steps needed to [create a macro](#create-a-macro):
 1. [Enable the developer tab](#enable-the-developer-tab)
 1. [Record a macro](#record-a-macro)
 1. [Test a macro](#test-a-macro)
 1. [View the Personal Macro Workbook](#view-the-personal-macro-workbook)
+
+It will also share a few [helpful hints about macros](#helpful-hints-about-macros) and offer resources for [more help](#more-help). 
 
 ## [Create a macro](#create-a-macro)
 
@@ -215,7 +217,7 @@ To save your changes, click `Save`.
 * Create `unique` macros names that are recognizable
   * Add a description to the description field
 
-## More Help
+## [More Help](#more-help)
 
 To learn more about `macros`, visit <a href="https://support.office.com/en-us/article/automate-tasks-with-the-macro-recorder-974ef220-f716-4e01-b015-3ea70e64937b" target="_blank">Microsoft's Macro website</a>.
 

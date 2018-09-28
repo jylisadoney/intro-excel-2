@@ -1,12 +1,12 @@
 ---
-title: Record Macros
+title: Record and Test Macros
 nav: true
 ---
 Please download <a href="images/IntroExcel-Part2-SampleWorkbook.xlsx" target="_blank">`IntroExcel-Part2-SampleWorkbook.xlsx`</a> to follow along with workshop activities.
 
 **Throughout this workshop `Click` refers to a `Left Click` with your mouse**
 
-# Record Macros
+# Record and Test Macros
 
 If you frequently use Excel to work with similar worksheets and find yourself doing the same tasks again and again, `macros` can help you automate those tasks.
 

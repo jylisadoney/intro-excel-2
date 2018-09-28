@@ -44,30 +44,9 @@ Let's navigate to `Sheet 3` in our workbook.
 Since this Excel worksheet stays consistent, we can `record macros` that allow us to automate certain tasks when we download future versions of this file.
 
 We will focus on `recording a macro` for three types of tasks:
-1. [Delete a column](#delete-a-column)
 1. [Format a column](#format-a-column)
 1. [Apply sentence case to a specific column](#apply-sentence-case-to-a-specific-column)
-
-### [Delete a column](#delete-a-column)
-* Click on cell `A1`
-* Navigate to the `Developer` tab and the `Code` section
-* Click on `Use Relative References`
-* Click on `Record Macro`
-* Under `Macro name`, type a name for the macro
-  * Example: BookListDeleteColumnMacro
-* In the `Store macro in` drop-down, select `Personal Macro Workbook`
-  * This makes the `macro` available to use across all Excel workbooks
-    * Learn how to [view the Personal Macro Workbook](#view-the-personal-macro-workbook)
-* Enter a description
-  * Example: Macro to delete a single column in a book list.
-* Click OK to start recording
-
-Now we can record the `BookListDeleteColumnMacro` action:
-* Click on the `Title_Remark column` (or Column B) to highlight it
-* Right click, then click on `Delete`
-* Click on cell `A1`
-* Navigate to the `Developer` tab and the `Code` section
-* Click on `Stop Recording`
+1. [Delete a column](#delete-a-column)
 
 ### [Format a column](#format-a-column)
 * Click on cell `A1`
@@ -97,6 +76,7 @@ This macro will include four parts:
 * [Part 1: Insert a new column](#part-1-insert-a-new-column)
 * [Part 2: Insert the PROPER function](#part-2-insert-the-proper-function)
 * [Part 3: Copy and paste values](#part-3-copy-and-paste-values)
+* [Part 4: Delete a column](#part-4-delete-a-column)
 
 #### [Part 1: Insert a new column](#part-1-insert-a-new-column)
 * Click on cell `A1`
@@ -106,12 +86,14 @@ This macro will include four parts:
 * Under `Macro name`, type a name for the macro
   * Example: BookListInsertColumnMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
+  * This makes the `macro` available to use across all Excel workbooks
+    * Learn how to [view the Personal Macro Workbook](#view-the-personal-macro-workbook)
 * Enter a description
   * Example: Macro to insert a new column in a book list.
 * Click OK to start recording
 
 Now we can record the `BookListInsertColumnMacro` action:
-* Click on the `Author column` (or Column B)) to highlight it
+* Click on the `Author column` (or Column B) to highlight it
 * Right click, then click on `Insert`
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
@@ -168,7 +150,24 @@ Now we can record the `BookListCopyPasteValuesMacro` action:
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`
 
-Since we already recorded a `BookListDeleteColumnMacro` using `relative references` that will delete the duplicate content in `Column B`, we do not need to create another one.
+#### [Part 4: Delete a column](#part-4-delete-a-column)
+* Click on cell `A1`
+* Navigate to the `Developer` tab and the `Code` section
+* Click on `Use Relative References`
+* Click on `Record Macro`
+* Under `Macro name`, type a name for the macro
+  * Example: BookListDeleteDuplicateTitleColumnMacro
+* In the `Store macro in` drop-down, select `Personal Macro Workbook`
+* Enter a description
+  * Example: Macro to delete the duplicate title column in a book list.
+* Click OK to start recording
+
+Now we can record the `BookListDeleteDuplicateTitleColumnMacro` action:
+* Click on the duplicate `Title column` (or Column B) to highlight it
+* Right click, then click on `Delete`
+* Click on cell `A1`
+* Navigate to the `Developer` tab and the `Code` section
+* Click on `Stop Recording`
 
 ## [Test a macro](#test-a-macro)
 Now that we have recorded these `macros`, let's test them on a new version of the same data.

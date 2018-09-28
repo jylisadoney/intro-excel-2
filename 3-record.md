@@ -16,6 +16,7 @@ This lesson will show you how to all the steps needed to [create a macro](#creat
 1. [Enable the developer tab](#enable-the-developer-tab)
 1. [Record a macro](#record-a-macro)
 1. [Test a macro](#test-a-macro)
+1. [View the Personal Macro Workbook](#view-the-personal-macro-workbook)
 
 ## [Create a macro](#create-a-macro)
 
@@ -54,6 +55,7 @@ We will focus on `recording a macro` for three types of tasks:
   * Example: BookListDeleteColumnMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
   * This makes the `macro` available to use across all Excel workbooks
+    * Learn how to [view the Personal Macro Workbook](#view-the-personal-macro-workbook)
 * Enter a description
   * Example: Macro to delete a single column in a book list.
 * Click OK to start recording
@@ -73,7 +75,6 @@ Now we can record the `BookListDeleteColumnMacro` action:
 * Under `Macro name`, type a name for the macro
   * Example: BookListFormatISBNColumnMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
-  * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
   * Example: Macro to format ISBN column to numbers in a book list.
 * Click OK to start recording
@@ -103,7 +104,6 @@ This macro will include four parts:
 * Under `Macro name`, type a name for the macro
   * Example: BookListInsertColumnMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
-  * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
   * Example: Macro to insert a new column in a book list.
 * Click OK to start recording
@@ -123,7 +123,6 @@ Now we can record the `BookListInsertColumnMacro` action:
 * Under `Macro name`, type a name for the macro
   * Example: BookListProperFunctionMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
-  * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
   * Example: Macro to insert the PROPER function in a whole column in a book list.
 * Click OK to start recording
@@ -150,7 +149,6 @@ Now we can record the `BookListProperFunctionMacro` action:
 * Under `Macro name`, type a name for the macro
   * Example: BookListCopyPasteValuesMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
-  * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
   * Example: Macro to copy and paste values in a book list.
 * Click OK to start recording
@@ -187,6 +185,25 @@ We can then use the same steps to test the other macros:
 * BookListProperFunctionMacro
 * BookListCopyPasteValuesMacro
 * BookListDeleteColumnMacro
+
+## [View the Personal Macro Workbook](#view-the-personal-macro-workbook)
+
+Since we stored all the `macros` in the `Personal Macro Workbook`, we can `run` use these in any Excel workbook. When you open Excel, the `Personal Macro Workbook` is hidden by default and you must `unhide` this workbook to edit or delete a `macro`. 
+
+To view the `Personal Macro Workbook`:
+* Open an Excel workbook
+* Navigate to the `View` tab and the `Window` section
+* Click `Unhide`
+* In the `Unhide workbook` window, click on `Personal`
+* Click on OK
+
+To hide the `Personal Macro Workbook`:
+* Navigate to the `Personal Macro Workbook`
+* Navigate to the `View` tab and the `Window` section
+* Click `Hide`
+
+When you `record macros` or hide/unhide the `Personal Macro Workbook`, you must save your changes. You will see the following prompt When you attempt to close Excel after making changes to the `Personal Macro Workbook`:
+
 
 ## [Helpful hints about macros](#helpful-hints-about-macros)
 * Use `relative references`

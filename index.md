@@ -6,6 +6,8 @@ title: Home
 Part II of this workshop series will show you how to:
 - insert advanced functions 
 - create charts and graphs
+- generate PivotTables
+- record and test macros
 
 Need a refresher? Visit the <a href="https://jylisadoney.github.io/intro-excel-1/" target="_blank">Introduction to Excel Part I: Tips, Tricks, and Strategies</a> page.
 

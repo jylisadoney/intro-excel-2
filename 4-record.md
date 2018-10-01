@@ -26,12 +26,19 @@ The `macro` tool is located under the `Developer` tab in Excel, which is hidden 
 
 ## [Enable the developer tab](#enable-the-developer-tab)
 
-To enable the `Developer` tab:
+To enable the `Developer` tab on a PC:
 * Click on `File`
 * Click on `Options`
 * Click on `Customize Ribbon`
 * Under `Main Tabs`, click on the box for `Developer`
 * Click OK
+
+To enable the `Developer` tab on a Mac:
+* Click on `Excel`
+* Click on `Preferences`
+* Click on `Ribbon & Toolbar`
+* Under `Customize the Ribbon`, click `Main Tabs`, then click on the box for `Developer`
+* Click Save
 
 We can now see the `Developer` tab at the top of our Excel workbook.
 

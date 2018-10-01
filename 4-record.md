@@ -228,7 +228,7 @@ To save your changes, click `Save`.
 
 To learn more about `macros`, visit <a href="https://support.office.com/en-us/article/automate-tasks-with-the-macro-recorder-974ef220-f716-4e01-b015-3ea70e64937b" target="_blank">Microsoft's Macro website</a>.
 
-Follow the instructions below to find your `Personal Macro Workbook` on your computer:
+Follow the instructions below to find your `Personal Macro Workbook` on your PC:
 * Open `File Explorer` (or `Finder` on a Mac)
 * Navigate to `Local Disk (C:)`
 * Double-click on `Users`

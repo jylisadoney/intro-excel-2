@@ -24,6 +24,8 @@ For a refresher on inserting functions, visit the <a href="https://jylisadoney.g
 * <a href="https://support.office.com/en-us/article/product-function-8e6b5b24-90ee-4650-aeec-80982a0512ce" target="_blank">PRODUCT</a>: multiply cells
 * <a href="https://support.office.com/en-us/article/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89" target="_blank">SUM</a>: add cells
 
+Learn more about <a href="https://support.office.com/en-us/article/math-and-trigonometry-functions-reference-ee158fd6-33be-42c9-9ae5-d635c3ae8c16" target=_"blank">Math and Trig functions</a>.
+
 ## [Statistical](#statistical)
 * <a href="https://support.office.com/en-us/article/average-function-047bac88-d466-426c-a32b-8f33eb960cf6" target="_blank">AVERAGE</a>: identify the average/mean for a range of cells
 * <a href="https://support.office.com/en-us/article/countif-function-e0de10c6-f885-4e71-abb4-1f464816df34" target="_blank">COUNTIF</a>: counts the number of cells in a range that meet specific criteria 
@@ -33,11 +35,15 @@ For a refresher on inserting functions, visit the <a href="https://jylisadoney.g
 * <a href="https://support.office.com/en-us/article/mode-function-e45192ce-9122-4980-82ed-4bdc34973120" target="_blank">MODE</a>: identify the mode for a range of cells
 * <a href="https://support.office.com/en-us/article/stdev-function-51fecaaa-231e-4bbb-9230-33650a72c9b0" target="_blank">STDEV</a>: identify the standard deviation for a range of cells
 
+Learn more about <a href="https://support.office.com/en-us/article/statistical-functions-reference-624dac86-a375-4435-bc25-76d659719ffd" target="_blank">Statistical functions</a>.
+
 ## [Text](#text)
 * <a href="https://support.office.com/en-us/article/concatenate-function-8f8ae884-2ca8-4f7a-b093-75d702bea31d" target="_blank">CONCATENATE</a>: merge data from two cells into one cell
 * <a href="https://support.office.com/en-us/article/lower-function-3f21df02-a80c-44b2-afaf-81358f9fdeb4" target="_blank">LOWER</a>: convert text to lowercase
 * <a href="https://support.office.com/en-us/article/proper-function-52a5a283-e8b2-49be-8506-b2887b889f94" target="_blank">PROPER</a>: capitalize the first letter in each word
 * <a href="https://support.office.com/en-us/article/upper-function-c11f29b3-d1a3-4537-8df6-04d0049963d6" target="_blank">UPPER</a>: convert text to uppercase
+
+Learn more about <a href="https://support.office.com/en-us/article/text-functions-reference-cccd86ad-547d-4ea9-a065-7bb697c2a56e" target="_blank">Text functions</a>.
 
 ### Practice the CONCATENATE Function
 Let's navigate to `Sheet 1` and practice the `CONCATENATE` function on the `Salesperson` column.
@@ -102,4 +108,4 @@ This requires six steps:
 ## More Help
 To learn more about `functions`, open Excel and navigate to the `Formulas` tab and the `Function Library` section. 
 
-You can also visit <a href="https://support.office.com/en-us/article/excel-functions-by-category-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb?ui=en-US&rs=en-US&ad=US" target="_blank">Microsoft's Excel Functions (by Category) website</a>.
+You can also visit <a href="https://support.office.com/en-us/article/excel-functions-by-category-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb?ui=en-US&rs=en-US&ad=US" target="_blank">Microsoft's Excel Functions (by Category) website</a> to learn more other functions.

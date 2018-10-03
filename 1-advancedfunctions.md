@@ -92,7 +92,7 @@ This requires six steps:
 * Click on `Cell D2` to highlight it
 * Hold down the `Shift` key on your keyboard
 * Scroll to and click on `Cell D23` to highlight the entire data range
-* Right click on the highlight data, then click on `Copy`
+* Right click on the `highlighted data`, then click on `Copy`
   * You can also hit `Ctrl + C` (or `Cmd + C` on a Mac) on your keyboard to copy data
 * Click on `Cell B2` (in the Salesperson column) to highlight it
 * Right click on `Cell B2` 

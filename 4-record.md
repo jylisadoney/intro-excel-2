@@ -17,6 +17,7 @@ This lesson will show you how to all the steps needed to [create a macro](#creat
 1. [Record a macro](#record-a-macro)
 1. [Test a macro](#test-a-macro)
 1. [View the Personal Macro Workbook](#view-the-personal-macro-workbook)
+1. [Delete a macro](#delete-a-macro)
 
 It will also share a few [helpful hints about macros](#helpful-hints-about-macros) and offer resources for [more help](#more-help). 
 
@@ -197,7 +198,7 @@ We can then use the same steps to test the other macros:
 
 ## [View the Personal Macro Workbook](#view-the-personal-macro-workbook)
 
-Since we stored all the `macros` in the `Personal Macro Workbook`, we can `run` use these in any Excel workbook. When you open Excel, the `Personal Macro Workbook` is hidden by default and you must `unhide` this workbook to edit or delete a `macro`. 
+Since we stored all the `macros` in the `Personal Macro Workbook`, we can `run` use these in any Excel workbook. When you open Excel, the `Personal Macro Workbook` is hidden by default and you must `unhide` this workbook to delete a `macro`. 
 
 To view the `Personal Macro Workbook`:
 * Open an Excel workbook
@@ -211,11 +212,22 @@ To hide the `Personal Macro Workbook`:
 * Navigate to the `View` tab and the `Window` section
 * Click `Hide`
 
-When you `record macros` or hide/unhide the `Personal Macro Workbook`, you must save your changes. You will see the following prompt When you attempt to close Excel after making changes to the `Personal Macro Workbook`:
+When you `record macros` or hide/unhide the `Personal Macro Workbook`, you must save your changes to `PERSONAL.XLSB` when prompted. You will see the following prompt when you attempt to close Excel after making changes to the `Personal Macro Workbook`:
 
 {% include figure.html file="PersonalMacroWorkbook_SavePrompt.JPG" alt="Microsoft Excel Personal Macro Workbook Save Prompt" caption="Microsoft Excel Personal Macro Workbook Save Prompt" %}
 
 To save your changes, click `Save`.
+
+## [Delete a macro](#delete-a-macro)
+After following the instructions above to [view the Personal Macro Workbook](#view-the-personal-macro-workbook):
+* Navigate to the `Developer` tab and the `Code` section
+* Click on `Macros`
+* Click to highlight the macro you want to `delete`
+  * Example: BookListDeleteColumnMacro
+* Click `Delete`
+* When prompted: `Do you want to delete macro BookListDeleteColumnMacro?`, click `Yes`
+
+When you `delete a macro`, you must save your changes to `PERSONAL.XLSB` when prompted.
 
 ## [Helpful hints about macros](#helpful-hints-about-macros)
 * Record `separate macros` for each task

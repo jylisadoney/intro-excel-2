@@ -60,7 +60,7 @@ These first three steps are the same for any type of `data validation`.
 Follow the instructions below to learn how to:
 * [Restrict data entry to whole numbers within limits](#restrict-data-entry-to-whole-numbers-within-limits)
 * [Restrict data entry to a range of dates](#restrict-data-entry-to-a-range-of-dates)
-* [Restrict data entry to a drop-down list of data values](#restrict-data-entry-to-a-dropdown-list-of-data-values)
+* [Restrict data entry to a drop-down list of data values](#restrict-data-entry-to-a-drop-down-list-of-data-values)
 * [Remove data validation](#remove-data-validation)
 * [Specify the input message or error alert](#specify-the-input-message-or-error-alert)
 
@@ -110,7 +110,7 @@ If you try to enter a number **outside the specified range**, you will see an er
 
 Now, if you try to enter a date **before** 01/01/1999, you will see an error message.
 
-### [Restrict data entry to a drop-down list of data values](#restrict-data-entry-to-a-dropdown-list-of-data-values)
+### [Restrict data entry to a drop-down list of data values](#restrict-data-entry-to-a-drop-down-list-of-data-values)
 * Click on the first cell where you want to `add data validation`
   * Do not select the `Header` cell
 * Hold down the `Shift` key on your keyboard to select all cells where you want to add data validation
@@ -135,7 +135,7 @@ Now, when you want to enter text, you can only select from the **allowed options
 ### [Specify the input message or error alert](#specify-the-input-message-or-error-alert)
 Excel also gives you the option to specify the `input message` or `error alert` to make is less generic.
 
-#### Specify input message
+#### Specify the input message
 * Highlight the cells where you want to specify the `input message`
 * Navigate to the `Data` tab and the `Data Tools` section
 * Click on `Data Validation`
@@ -143,7 +143,7 @@ Excel also gives you the option to specify the `input message` or `error alert` 
 * Check the box next to `Show input message when cell is selected`
 * Add a title and input message that describes the data validation requirements
 
-#### Specify error message
+#### Specify the error message
 * Highlight the cells where you want to specify the `error alert`
 * Navigate to the `Data` tab and the `Data Tools` section
 * Click on `Data Validation`

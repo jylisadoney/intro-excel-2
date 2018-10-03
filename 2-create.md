@@ -21,7 +21,7 @@ First, let's navigate to `Sheet1` in our workbook.
   * Option 3: Hit `Ctrl + A` on your keyboard (`Cmd + A` for Mac users)
 
 We can now work on creating our chart.
-* Navigate to the `Insert` tab
+* Navigate to the `Insert` tab and the `Charts` section
 * Click the picture of the `Bar Chart`
 * Click `2-D Clustered Column` (option 1)
 
@@ -34,7 +34,7 @@ Since we only want to compare `sales in Q1 and Q2`, we aren't interested in `Tot
 To remove `Total Sales` and `Hire Date` from our chart:
 * Click on the chart
 * Click on the `Funnel Icon`
-* Under `Series`, click on `Total Sales` and `Hire Date` to uncheck the boxes
+* Under `Series`, click the check-mark next to `Total Sales` and `Hire Date` to uncheck the boxes
 * Click on `Apply`
 
 Our chart is looking much better - but including the state names in our chart makes it difficult to read.
@@ -53,14 +53,21 @@ Another important part of creating visualizations is to add text that describes 
 
 ### Add a chart title
 * Click on the chart 
-* Navigate to the `Design` tab
-* Click on `Chart Title`
+* Navigate to the `Design` tab and the `Chart Layouts` section
+* Click on `Add Chart Element`
+* Hover over `Chart Title` and click on `Above Chart`
+
+We now have a text box that we can use to add a chart title.
+
+To edit the text:
+* Click on the chart
+* Click on the `Chart Title` text box
 * Type a title that describes the data
   * Maybe something like `Employee Sales by Quarter`
 
 ### Position the chart legend
 * Click on the chart
-* Navigate to the `Design` tab
+* Navigate to the `Design` tab and the `Chart Layouts` section
 * Click on `Add Chart Element`
 * Hover over `Legend`
 * Click on `Right`
@@ -69,7 +76,7 @@ Our legend is now positioned to the `right` of our `bar chart`.
 
 ### Add a title to the horizontal axis (x-axis)
 * Click on the chart
-* Navigate to the `Design` tab
+* Navigate to the `Design` tab and the `Chart Layouts` section
 * Click on `Add Chart Element`
 * Hover over `Axis Titles`
 * Click on `Primary Horizontal`
@@ -78,7 +85,7 @@ We now have a text box that we can use to describe this axis.
 
 To edit the text:
 * Click on the chart
-* Click on the `Axis Title`
+* Click on the `Axis Title` text box
 * Type a word or phrase that describes this axis
   * Maybe something like `Employee Names`
 

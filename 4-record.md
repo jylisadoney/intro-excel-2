@@ -61,7 +61,7 @@ We will focus on `recording a macro` for two types of tasks:
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`
-  * Learn more about the [differences between relative and absolute references](#differences-between-relative-and-absolute-references)
+  * Learn more about the [difference between relative and absolute references](#difference-between-relative-and-absolute-references)
 * Click on `Record Macro`
 * Under `Macro name`, type a name for the macro
   * Example: BookListFormatISBNColumnMacro
@@ -92,6 +92,7 @@ This macro will include four parts:
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`
+  * Learn more about the [difference between relative and absolute references](#difference-between-relative-and-absolute-references)
 * Click on `Record Macro`
 * Under `Macro name`, type a name for the macro
   * Example: BookListInsertColumnMacro
@@ -113,6 +114,7 @@ Now we can record the `BookListInsertColumnMacro` action:
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`
+  * Learn more about the [difference between relative and absolute references](#difference-between-relative-and-absolute-references)
 * Click on `Record Macro`
 * Under `Macro name`, type a name for the macro
   * Example: BookListProperFunctionMacro
@@ -139,6 +141,7 @@ Now we can record the `BookListProperFunctionMacro` action:
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`
+  * Learn more about the [difference between relative and absolute references](#difference-between-relative-and-absolute-references)
 * Click on `Record Macro`
 * Under `Macro name`, type a name for the macro
   * Example: BookListCopyPasteValuesMacro
@@ -233,7 +236,7 @@ When you `delete a macro`, you must save your changes to `PERSONAL.XLSB` when pr
 ## [Helpful hints about macros](#helpful-hints-about-macros)
 * Record `separate macros` for each task
 * Use `relative references`
-  * Learn about the [differences between relative and absolute references](#differences-between-absolute-and-relative-references)
+  * Learn more about the [difference between relative and absolute references](#difference-between-relative-and-absolute-references)
 * Click on cell `A1` before you `start and stop` recording to keep `relative references` consistent
 * Create `unique` macros names that are recognizable
   * Add a description to the description field
@@ -242,12 +245,16 @@ When you `delete a macro`, you must save your changes to `PERSONAL.XLSB` when pr
 
 To learn more about `macros`, visit <a href="https://support.office.com/en-us/article/automate-tasks-with-the-macro-recorder-974ef220-f716-4e01-b015-3ea70e64937b" target="_blank">Microsoft's Macro website</a>.
 
-### [Differences between relative and absolute references](#differences-between-absolute-and-relative-references)
-This lesson has focused on using `relative references` when recording macros as it gives you more flexibility. Recording a macro with `relative references` allows you to `run the macro` anywhere in a worksheet. This is why it is important to `start and stop` recording on cell `A1` when using `relative references`.
+### [Difference between relative and absolute references](#difference-between-absolute-and-relative-references)
+This lesson has focused on using `relative references` when recording macros as it gives you more flexibility. 
+* Recording a macro with `relative references` allows you to `run the macro` anywhere in a worksheet 
+  * This is why it is important to `start and stop` recording on cell `A1` when using `relative references`
 
-In contrast, recording a macro with `absolute references` allows you to only `run the macro` on a specific cell or cell range, column or row. However, using `absolute references` can be useful when you plan to `run the macro` in the exact same spot across several worksheets. No matter where you `start and stop` your recording, the macro will always run on the same location in your worksheet.
+In contrast, recording a macro with `absolute references` allows you to only `run the macro` on a specific cell or cell range, column or row.
+* Using `absolute references` can be useful when you plan to `run the macro` in the exact same spot across several worksheets
+  * No matter where you `start and stop` your recording, the macro will always run on the same location in your worksheet.
 
-Follow the instructions below to find your `Personal Macro Workbook` on your PC:
+### Find your `Personal Macro Workbook` file location on your PC:
 * Open `File Explorer` (or `Finder` on a Mac)
 * Navigate to `Local Disk (C:)`
 * Double-click on `Users`

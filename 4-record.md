@@ -31,14 +31,14 @@ To enable the `Developer` tab on a PC:
 * Click on `File`
 * Click on `Options`
 * Click on `Customize Ribbon`
-* Under `Main Tabs`, click on the box for `Developer`
+* Under `Main Tabs`, click to check the box next to `Developer`
 * Click OK
 
 To enable the `Developer` tab on a Mac:
 * Click on `Excel`
 * Click on `Preferences`
 * Click on `Ribbon & Toolbar`
-* Under `Customize the Ribbon`, click `Main Tabs`, then click on the box for `Developer`
+* Under `Customize the Ribbon`, click `Main Tabs`, then click to check the box next to `Developer`
 * Click Save
 
 We can now see the `Developer` tab at the top of our Excel workbook.
@@ -66,6 +66,8 @@ We will focus on `recording a macro` for two types of tasks:
 * Under `Macro name`, type a name for the macro
   * Example: BookListFormatISBNColumnMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
+  * This makes the `macro` available to use across all Excel workbooks
+    * Learn how to [view the Personal Macro Workbook](#view-the-personal-macro-workbook)
 * Enter a description
   * Example: Macro to format ISBN column to numbers in a book list.
 * Click OK to start recording
@@ -98,7 +100,6 @@ This macro will include four parts:
   * Example: BookListInsertColumnMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
   * This makes the `macro` available to use across all Excel workbooks
-    * Learn how to [view the Personal Macro Workbook](#view-the-personal-macro-workbook)
 * Enter a description
   * Example: Macro to insert a new column in a book list.
 * Click OK to start recording
@@ -119,6 +120,7 @@ Now we can record the `BookListInsertColumnMacro` action:
 * Under `Macro name`, type a name for the macro
   * Example: BookListProperFunctionMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
+  * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
   * Example: Macro to insert the PROPER function in a whole column in a book list.
 * Click OK to start recording
@@ -146,6 +148,7 @@ Now we can record the `BookListProperFunctionMacro` action:
 * Under `Macro name`, type a name for the macro
   * Example: BookListCopyPasteValuesMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
+  * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
   * Example: Macro to copy and paste values in a book list.
 * Click OK to start recording
@@ -171,6 +174,7 @@ Now we can record the `BookListCopyPasteValuesMacro` action:
 * Under `Macro name`, type a name for the macro
   * Example: BookListDeleteDuplicateTitleColumnMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
+  * This makes the `macro` available to use across all Excel workbooks
 * Enter a description
   * Example: Macro to delete the duplicate title column in a book list.
 * Click OK to start recording
@@ -202,16 +206,16 @@ We can then use the same steps to test the other macros:
 
 ### [View the Personal Macro Workbook](#view-the-personal-macro-workbook)
 
-Since we stored all the `macros` in the `Personal Macro Workbook`, we can `run` use these in any Excel workbook. When you open Excel, the `Personal Macro Workbook` is hidden by default and you must `unhide` this workbook to delete a `macro`. 
+Since we stored all the `macros` in the `Personal Macro Workbook`, we can `run` these in any Excel workbook. When you open Excel, the `Personal Macro Workbook` is hidden by default and you must `unhide` this workbook to delete a `macro`. 
 
-To view the `Personal Macro Workbook`:
+To view the `Personal Macro Workbook`
 * Open an Excel workbook
 * Navigate to the `View` tab and the `Window` section
 * Click `Unhide`
-* In the `Unhide workbook` window, click on `Personal`
-* Click on OK
+* In the `Unhide` window, click on `Personal`
+* Click OK
 
-To hide the `Personal Macro Workbook`:
+To hide the `Personal Macro Workbook`
 * Navigate to the `Personal Macro Workbook`
 * Navigate to the `View` tab and the `Window` section
 * Click `Hide`
@@ -238,7 +242,7 @@ When you `delete a macro`, you must save your changes to `PERSONAL.XLSB` when pr
 * Use `relative references`
   * Learn more about the [difference between relative and absolute references](#difference-between-relative-and-absolute-references)
 * Click on cell `A1` before you `start and stop` recording to keep `relative references` consistent
-* Create `unique` macros names that are recognizable
+* Create `unique` macro names that are recognizable
   * Add a description to the description field
 
 ## [More Help](#more-help)
@@ -247,12 +251,12 @@ To learn more about `macros`, visit <a href="https://support.office.com/en-us/ar
 
 ### [Difference between relative and absolute references](#difference-between-absolute-and-relative-references)
 This lesson has focused on using `relative references` when recording macros as it gives you more flexibility. 
-* Recording a macro with `relative references` allows you to `run the macro` anywhere in a worksheet 
+* Recording a macro with `relative references` allows you to `run the macro` anywhere in a workbook 
   * This is why it is important to `start and stop` recording on cell `A1` when using `relative references`
 
-In contrast, recording a macro with `absolute references` allows you to only `run the macro` on a specific cell or cell range, column or row.
-* Using `absolute references` can be useful when you plan to `run the macro` in the exact same spot across several worksheets
-  * No matter where you `start and stop` your recording, the macro will always run on the same location in your worksheet.
+In contrast, recording a macro with `absolute references` allows you to only `run the macro` on a specific cell or cell range, column, or row.
+* Using `absolute references` can be useful when you plan to `run the macro` in the exact same spot across several workbooks
+  * No matter where you `start and stop` your recording, the macro will always run on the same location in your worksbook.
   
 ### [Find your Personal Macro Workbook file location](#find-your-personal-macro-workbook-file-location)
 * Open `File Explorer` (or `Finder` on a Mac)

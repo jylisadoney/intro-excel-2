@@ -19,7 +19,7 @@ This lesson will show you how to all the steps needed to [create a macro](#creat
 1. [View the Personal Macro Workbook](#view-the-personal-macro-workbook)
 1. [Delete a macro](#delete-a-macro)
 
-It will also share a few [helpful hints about macros](#helpful-hints-about-macros) and offer resources for [more help](#more-help). 
+It will also share a few [helpful hints about macros](#helpful-hints-about-macros), offer resources for [more help](#more-help), detail the [difference between relative and absolute references](#difference-between-relative-and-absolute-references), and help you [find your Personal Macro Workbook file location](#find-your-personal-macro-workbook-file-location). 
 
 ## [Create a macro](#create-a-macro)
 
@@ -253,8 +253,8 @@ This lesson has focused on using `relative references` when recording macros as 
 In contrast, recording a macro with `absolute references` allows you to only `run the macro` on a specific cell or cell range, column or row.
 * Using `absolute references` can be useful when you plan to `run the macro` in the exact same spot across several worksheets
   * No matter where you `start and stop` your recording, the macro will always run on the same location in your worksheet.
-
-### Find your `Personal Macro Workbook` file location on your PC:
+  
+### [Find your Personal Macro Workbook file location](#find-your-personal-macro-workbook-file-location)
 * Open `File Explorer` (or `Finder` on a Mac)
 * Navigate to `Local Disk (C:)`
 * Double-click on `Users`

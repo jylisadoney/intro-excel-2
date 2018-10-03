@@ -25,7 +25,7 @@ It will also share a few [helpful hints about macros](#helpful-hints-about-macro
 
 The `macro` tool is located under the `Developer` tab in Excel, which is hidden by default.
 
-## [Enable the developer tab](#enable-the-developer-tab)
+### [Enable the developer tab](#enable-the-developer-tab)
 
 To enable the `Developer` tab on a PC:
 * Click on `File`
@@ -43,7 +43,7 @@ To enable the `Developer` tab on a Mac:
 
 We can now see the `Developer` tab at the top of our Excel workbook.
 
-## [Record a macro](#record-a-macro)
+### [Record a macro](#record-a-macro)
 
 Let's navigate to `Sheet 3` in our workbook.
 
@@ -57,7 +57,7 @@ We will focus on `recording a macro` for two types of tasks:
 1. [Format a column](#format-a-column)
 1. [Apply the PROPER function to a specific column](#apply-the-proper-function-to-a-specific-column)
 
-### [Format a column](#format-a-column)
+#### [Format a column](#format-a-column)
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`
@@ -81,14 +81,14 @@ Now we can record the `BookListFormatISBNColumnMacro` action:
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`
 
-### [Apply the PROPER function to a specific column](#apply-the-proper-function-to-a-specific-column)
+#### [Apply the PROPER function to a specific column](#apply-the-proper-function-to-a-specific-column)
 This macro will include four parts:
 * [Part 1: Insert a new column](#part-1-insert-a-new-column)
 * [Part 2: Insert the PROPER function](#part-2-insert-the-proper-function)
 * [Part 3: Copy and paste values](#part-3-copy-and-paste-values)
 * [Part 4: Delete a column](#part-4-delete-a-column)
 
-#### [Part 1: Insert a new column](#part-1-insert-a-new-column)
+##### [Part 1: Insert a new column](#part-1-insert-a-new-column)
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`
@@ -110,7 +110,7 @@ Now we can record the `BookListInsertColumnMacro` action:
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`
 
-#### [Part 2: Insert the PROPER function](#part-2-insert-the-proper-function)
+##### [Part 2: Insert the PROPER function](#part-2-insert-the-proper-function)
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`
@@ -137,7 +137,7 @@ Now we can record the `BookListProperFunctionMacro` action:
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`
 
-#### [Part 3: Copy and paste values](#part-3-copy-and-paste-values)
+##### [Part 3: Copy and paste values](#part-3-copy-and-paste-values)
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`
@@ -163,7 +163,7 @@ Now we can record the `BookListCopyPasteValuesMacro` action:
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`
 
-#### [Part 4: Delete a column](#part-4-delete-a-column)
+##### [Part 4: Delete a column](#part-4-delete-a-column)
 * Click on cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Use Relative References`
@@ -182,7 +182,7 @@ Now we can record the `BookListDeleteDuplicateTitleColumnMacro` action:
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Stop Recording`
 
-## [Test a macro](#test-a-macro)
+### [Test a macro](#test-a-macro)
 Now that we have recorded these `macros`, let's test them on a new version of the same data.
 
 First, let's download <a href="images/IntroExcel-Part2-SampleTestaMacroWorkbook.xlsx" target="_blank">`IntroExcel-Part2-SampleTestaMacroWorkbook.xlsx`</a>, open it on your computer, and click `enable editing` if prompted.
@@ -200,7 +200,7 @@ We can then use the same steps to test the other macros:
 * BookListCopyPasteValuesMacro
 * BookListDeleteColumnMacro
 
-## [View the Personal Macro Workbook](#view-the-personal-macro-workbook)
+### [View the Personal Macro Workbook](#view-the-personal-macro-workbook)
 
 Since we stored all the `macros` in the `Personal Macro Workbook`, we can `run` use these in any Excel workbook. When you open Excel, the `Personal Macro Workbook` is hidden by default and you must `unhide` this workbook to delete a `macro`. 
 
@@ -222,7 +222,7 @@ When you `record macros` or hide/unhide the `Personal Macro Workbook`, you must 
 
 To save your changes, click `Save`.
 
-## [Delete a macro](#delete-a-macro)
+### [Delete a macro](#delete-a-macro)
 After following the instructions above to [view the Personal Macro Workbook](#view-the-personal-macro-workbook):
 * Navigate to the `Developer` tab and the `Code` section
 * Click on `Macros`
@@ -233,7 +233,7 @@ After following the instructions above to [view the Personal Macro Workbook](#vi
 
 When you `delete a macro`, you must save your changes to `PERSONAL.XLSB` when prompted.
 
-## [Helpful hints about macros](#helpful-hints-about-macros)
+### [Helpful hints about macros](#helpful-hints-about-macros)
 * Record `separate macros` for each task
 * Use `relative references`
   * Learn more about the [difference between relative and absolute references](#difference-between-relative-and-absolute-references)

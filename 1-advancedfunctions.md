@@ -28,11 +28,11 @@ Learn more about <a href="https://support.office.com/en-us/article/math-and-trig
 
 ## [Statistical](#statistical)
 * <a href="https://support.office.com/en-us/article/average-function-047bac88-d466-426c-a32b-8f33eb960cf6" target="_blank">AVERAGE</a>: identify the average/mean for a range of cells
-* <a href="https://support.office.com/en-us/article/countif-function-e0de10c6-f885-4e71-abb4-1f464816df34" target="_blank">COUNTIF</a>: counts the number of cells in a range that meet specific criteria 
+* <a href="https://support.office.com/en-us/article/countif-function-e0de10c6-f885-4e71-abb4-1f464816df34" target="_blank">COUNTIF</a>: count the number of cells in a range that meet specific criteria 
 * <a href="https://support.office.com/en-us/article/max-function-e0012414-9ac8-4b34-9a47-73e662c08098" target="_blank">MAX</a>: identify the largest number contained in a range of cells
 * <a href="https://support.office.com/en-us/article/median-function-d0916313-4753-414c-8537-ce85bdd967d2" target="_blank">MEDIAN</a>: identify the median for a range of cells
 * <a href="https://support.office.com/en-us/article/min-function-61635d12-920f-4ce2-a70f-96f202dcc152" target="_blank">MIN</a>: identify the smallest number contained in a range of cells
-* <a href="https://support.office.com/en-us/article/mode-function-e45192ce-9122-4980-82ed-4bdc34973120" target="_blank">MODE</a>: identify the mode for a range of cells
+* <a href="https://support.office.com/en-us/article/mode-function-e45192ce-9122-4980-82ed-4bdc34973120" target="_blank">MODE</a>: identify the most frequently occuring value for a range of cells
 * <a href="https://support.office.com/en-us/article/stdev-function-51fecaaa-231e-4bbb-9230-33650a72c9b0" target="_blank">STDEV</a>: identify the standard deviation for a range of cells
 
 Learn more about <a href="https://support.office.com/en-us/article/statistical-functions-reference-624dac86-a375-4435-bc25-76d659719ffd" target="_blank">Statistical functions</a>.
@@ -48,7 +48,7 @@ Learn more about <a href="https://support.office.com/en-us/article/text-function
 ### Practice the CONCATENATE Function
 Let's navigate to `Sheet 1` and practice the `CONCATENATE` function on the `Salesperson` column.
 
-Right now, the data in the `Salesperson` columns appears as `last-name, first-name`. We can use the `CONCATENATE` function to make the worksheet more visually appealing by changing the data in this column to `first-name last-name`
+Right now, the data in the `Salesperson` column appears as `last-name, first-name`. We can use the `CONCATENATE` function to make the worksheet more visually appealing by changing the data in this column to `first-name last-name`
 
 This requires six steps:
 1. [Insert a new column](#insert-a-new-column)
@@ -69,7 +69,7 @@ This requires six steps:
 * Select the `Delimited` option in the pop-up window
 * Click `Next`
 * Click the check-mark next to `Tab` to uncheck the box
-* Click to check the box for `Comma`, then check the box for `Space`
+* Click to check the box for `Comma` then check the box for `Space`
   * We can now see a preview of what our data will look like
 * Click `Next`
 * Click `Finish`
@@ -92,7 +92,7 @@ This requires six steps:
 * Click on `Cell D2` to highlight it
 * Hold down the `Shift` key on your keyboard
 * Scroll to and click on `Cell D23` to highlight the entire data range
-* Right click on `Column B` then click on `Copy`
+* Right click on the highlight data, then click on `Copy`
   * You can also hit `Ctrl + C` (or `Cmd + C` on a Mac) on your keyboard to copy data
 * Click on `Cell B2` (in the Salesperson column) to highlight it
 * Right click on `Cell B2` 
@@ -108,4 +108,4 @@ This requires six steps:
 ## More Help
 To learn more about `functions`, open Excel and navigate to the `Formulas` tab and the `Function Library` section. 
 
-You can also visit <a href="https://support.office.com/en-us/article/excel-functions-by-category-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb?ui=en-US&rs=en-US&ad=US" target="_blank">Microsoft's Excel Functions (by Category) website</a> to learn more other functions.
+You can also visit <a href="https://support.office.com/en-us/article/excel-functions-by-category-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb?ui=en-US&rs=en-US&ad=US" target="_blank">Microsoft's Excel Functions (by Category) website</a> to learn about other functions.

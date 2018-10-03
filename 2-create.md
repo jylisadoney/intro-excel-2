@@ -16,8 +16,9 @@ Today, we will [create a Bar Chart](#create-a-bar-chart) that compares each empl
 
 First, let's navigate to `Sheet1` in our workbook.
 * Highlight all of our data
-  * Option 1: Click on `Cell A1` and drag to highlight all data **OR**
-  * Option 2: Hit `Ctrl A` on your keyboard (`Command A` for Mac users)
+  * Option 1: Click on `Cell A1`, hold down the `Shift` key on your keyboard, and click on `Cell F23`
+  * Option 2: Click on `Cell A1` and drag to highlight all data **OR**
+  * Option 3: Hit `Ctrl + A` on your keyboard (`Cmd + A` for Mac users)
 
 We can now work on creating our chart.
 * Navigate to the `Insert` tab

@@ -10,7 +10,7 @@ Please download <a href="images/IntroExcel-Part2-SampleWorkbook.xlsx" target="_b
 
 If you frequently use Excel to work with similar worksheets and find yourself doing the same tasks again and again, `macros` can help you automate those tasks.
 
-`Macros` allow you to record specific actions and clicks and then run that `macro` in other workbooks.
+`Macros` allow you to record specific actions and complete those actions in other workbooks.
 
 This lesson will show you how to all the steps needed to [create a macro](#create-a-macro):
 1. [Enable the developer tab](#enable-the-developer-tab)

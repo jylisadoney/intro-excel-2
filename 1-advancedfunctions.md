@@ -24,7 +24,7 @@ For a refresher on inserting functions, visit the <a href="https://jylisadoney.g
 * <a href="https://support.office.com/en-us/article/product-function-8e6b5b24-90ee-4650-aeec-80982a0512ce" target="_blank">PRODUCT</a>: multiply cells
 * <a href="https://support.office.com/en-us/article/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89" target="_blank">SUM</a>: add cells
 
-Learn more about <a href="https://support.office.com/en-us/article/math-and-trigonometry-functions-reference-ee158fd6-33be-42c9-9ae5-d635c3ae8c16" target=_"blank">Math and Trig functions</a>.
+Learn more about <a href="https://support.office.com/en-us/article/math-and-trigonometry-functions-reference-ee158fd6-33be-42c9-9ae5-d635c3ae8c16" target="_blank">Math and Trig functions</a>.
 
 ## [Statistical](#statistical)
 * <a href="https://support.office.com/en-us/article/average-function-047bac88-d466-426c-a32b-8f33eb960cf6" target="_blank">AVERAGE</a>: identify the average/mean for a range of cells

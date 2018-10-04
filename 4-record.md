@@ -210,14 +210,14 @@ Since we stored all the `macros` in the `Personal Macro Workbook`, we can `run` 
 
 To view the `Personal Macro Workbook`
 * Open an Excel workbook
-* Navigate to the `View` tab and the `Window` section
+* Navigate to the `View` tab and the `Window` section (on a Mac, navigate to the `Window` tab) 
 * Click `Unhide`
 * In the `Unhide` window, click on `Personal`
 * Click OK
 
 To hide the `Personal Macro Workbook`
 * Navigate to the `Personal Macro Workbook`
-* Navigate to the `View` tab and the `Window` section
+* Navigate to the `View` tab and the `Window` section (on a Mac, navigate to the `Window` tab) 
 * Click `Hide`
 
 When you `record macros` or hide/unhide the `Personal Macro Workbook`, you must save your changes to `PERSONAL.XLSB` when prompted. You will see the following prompt when you attempt to close Excel after making changes to the `Personal Macro Workbook`:

@@ -32,19 +32,19 @@ Right away, we see that this chart is a **mess** and the visualization is confus
 Since we only want to compare `sales in Q1 and Q2`, we aren't interested in `Total Sales` or `Hire Date`.
 
 To remove `Total Sales` and `Hire Date` from our chart:
-* Click on the chart
-* Click on the `Funnel Icon`
-* Under `Series`, click the check-mark next to `Total Sales` and `Hire Date` to uncheck the boxes
-* Click on `Apply`
+* Click on the chart 
+* Click on the `Funnel Icon` (on a Mac, right click on the chart and click `Select Data`)
+* Under `Series`, click the check-mark next to `Total Sales` and `Hire Date` to uncheck the boxes (on a Mac, under `Series` click to highlight `Total Sales`, then click `Remove` and follow the same steps for `Hire Date`)
+* Click on `Apply` (on a Mac, click OK)
 
 Our chart is looking much better - but including the state names in our chart makes it difficult to read.
 
 To remove `State` names from our chart:
 * Click on the chart
-* Click on the `Funnel Icon`
-* Click on `Names`
-* Under `Categories`, select the option for `Column B`
-* Click on `Apply`
+* Click on the `Funnel Icon` (on a Mac, right click on the chart and click `Select Data`)
+* Click on `Names` (on a Mac, navigate to the `Category (X) axis labels box`)
+* Under `Categories`, select the option for `Column B` (on a Mac, change the cell range to remove any reference to state names, for example: `=Sheet1!$B$2:$B$23`)
+* Click on `Apply` (on a Mac, click OK)
 
 After these two small changes, our chart looks so much better!
 

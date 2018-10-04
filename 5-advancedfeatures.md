@@ -93,7 +93,7 @@ If you try to enter a number **outside the specified range**, you will see an er
 * Hit `Enter` on your keyboard
 * Click `Retry` to enter a value that meets the `data validation` requirements
 
-{% include figure.html file="DataValidation_ErrorMessage.JPG" alt="Microsoft Excel Personal Macro Workbook Save Prompt" caption="Microsoft Excel Personal Macro Workbook Save Prompt" %}
+{% include figure.html file="DataValidation_ErrorMessage.JPG" alt="Microsoft Excel Data Validation Error Message" caption="Microsoft Excel Data Validation Error Message" %}
 
 ### [Restrict data entry to a range of dates](#restrict-data-entry-to-a-range-of-dates)
 * Click on the first cell where you want to `add data validation`

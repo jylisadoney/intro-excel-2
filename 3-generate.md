@@ -21,8 +21,8 @@ First, let's navigate to `Sheet2` in our workbook.
   * Option 1: Click on `Cell A1`, hold down the `Shift` key on your keyboard, and click on `Cell D23`
   * Option 2: Click on `Cell A1` and drag to highlight all data **OR**
   * Option 3: Hit `Ctrl + A` on your keyboard (`Cmd + A` for Mac users)
-* Navigate to the `Insert` tab and the `Tables` section
-* Click on `PivotTable`
+* Navigate to the `Insert` tab and the `Tables` section (on a Mac, navigate to the `Data` tab and the `Analysis` section)
+* Click on `PivotTable` (on a Mac, click on the drop-down arrow by the `PivotTable` icon and click on `Create Manual PivotTable`)
 * Under `Choose the data you want to analyze`, confirm that:
   * `Select a table or range` is selected
   * Verify that cell range in the `Table/Range` box is correct
@@ -51,8 +51,8 @@ Let's say we want to create a PivotTable to see whether students who attended `S
 
 * Navigate to the PivotTables Fields box
   * If this box disappears, `click` on the PivotTable
-  * Naviate to the `Analyze` tab and the `Show` section
-  * Click on `Field List`
+  * Naviate to the `Analyze` tab and the `Show` section (on a Mac, navigate to the `PivotTable` tab and the `View` section)
+  * Click on `Field List` (on a Mac, click on `Builder`)
 * Click on `Test 1` and `drag and drop` it in the `VALUES` section 
   * We can see that this `field` is now called `Sum of Test 1`
 

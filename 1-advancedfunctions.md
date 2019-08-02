@@ -105,6 +105,15 @@ This requires six steps:
 * Hold down the `Shift` key on your keyboard and click on `Column D` to highlight it too
 * Right click, then click on `Delete`
 
+<!-- 
+In Excel, CONCATENATE function can convert the column list to a list in a cell separated by commas. Please do as follows 
+1. Select a blank cell adjacent to the list's first data, for instance, the cell C1, and type this formula =CONCATENATE(TRANSPOSE(A1:A7)&",") (A1:A7 is the column you will convert to comma serrated list, "," indicates the separator you want to separate the list). See screenshot below:
+2. Highlight the TRANSPOSE(A1:A7)&"," in the formula, and press the F9 key.
+3. Remove curly braces {and } from the formula, and press the Enter key.
+Now, you can see all values in the column list been converted a list in a cell and separated by comma.
+Link: https://www.extendoffice.com/documents/excel/1544-excel-convert-column-to-comma-separated-list.html 
+--!>
+
 ## More Help
 To learn more about `functions`, open Excel and navigate to the `Formulas` tab and the `Function Library` section. 
 

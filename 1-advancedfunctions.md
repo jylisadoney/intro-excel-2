@@ -14,11 +14,11 @@ For a refresher on inserting functions, visit the <a href="https://jylisadoney.g
 
 ## [Math and Trig](#math-and-trig)
 * Difference (no function exists)
-  * Click on the cell where you want to calculate the difference 
+  * Click the cell where you want to calculate the difference 
   * Type: =CellA-CellB
     * Example: =A2-A3
 * Divide (no function exists)
-  * Click on the cell where you want to calculate the quotient 
+  * Click the cell where you want to calculate the quotient 
   * Type: =CellA/CellB
     * Example: =A2/A3
 * <a href="https://support.office.com/en-us/article/product-function-8e6b5b24-90ee-4650-aeec-80982a0512ce" target="_blank">PRODUCT</a>: multiply cells
@@ -59,13 +59,13 @@ This requires six steps:
 1. [Delete duplicate data](#delete-duplicate-data)
 
 #### [Insert a new column](#insert-a-new-column)
-* Click on `Column C` (or the Sales Q1 column) to highlight it
-* Right click then click on `Insert` to add a column
+* Click `Column C` (or the Sales Q1 column) to highlight it
+* Right click then click `Insert` to add a column
 
 #### [Split text into multiple columns](#split-text-into-multiple-columns)
 * Navigate to the `Data` tab and `Data Tools` section
-* Click on `Column B` (or the Salesperson column) to highlight it
-* Click on `Text to Columns`
+* Click `Column B` (or the Salesperson column) to highlight it
+* Click `Text to Columns`
 * Select the `Delimited` option in the pop-up window
 * Click `Next`
 * Click the check-mark next to `Tab` to uncheck the box
@@ -75,35 +75,35 @@ This requires six steps:
 * Click `Finish`
 
 #### [Insert another new column](#insert-another-new-column)
-* Click on `Column D` (or the Sales Q1 column) to highlight it
-* Right click then click on `Insert` to add a column
+* Click `Column D` (or the Sales Q1 column) to highlight it
+* Right click then click `Insert` to add a column
 
 #### [Insert CONCATENATE function](#insert-concatenate-function)
-* Click on `Cell D2`
+* Click `Cell D2`
 * Type `=CONCATENATE(D2," ",B2)`
   * Be sure to place a `space` between the quotation marks in this function
 * Hit `Enter` on your keyboard
-* Click on `Cell D2`
+* Click `Cell D2`
 * Hold down the `Shift` key on your keyboard
-* Scroll to and click on `Cell D23` to highlight the entire data range
+* Scroll to and click `Cell D23` to highlight the entire data range
 * Hit `Ctrl + D` on your keyboard (or `Cmd + D` on a Mac) to copy the function to all the highligted cells
 
 #### [Replace old data](#replace-old-data)
-* Click on `Cell D2` to highlight it
+* Click `Cell D2` to highlight it
 * Hold down the `Shift` key on your keyboard
-* Scroll to and click on `Cell D23` to highlight the entire data range
-* Right click on the `highlighted data`, then click on `Copy`
+* Scroll to and click `Cell D23` to highlight the entire data range
+* Right click the `highlighted data`, then click `Copy`
   * You can also hit `Ctrl + C` (or `Cmd + C` on a Mac) on your keyboard to copy data
-* Click on `Cell B2` (in the Salesperson column) to highlight it
-* Right click on `Cell B2` 
-* Click on `Paste Special`
-* Under `Paste`, click on `Values`
+* Click `Cell B2` (in the Salesperson column) to highlight it
+* Right click `Cell B2` 
+* Click `Paste Special`
+* Under `Paste`, click `Values`
   * This will let us copy and paste just the text
 
 #### [Delete duplicate data](#delete-duplicate-data)
-* Click on `Column C` to highlight it
+* Click `Column C` to highlight it
 * Hold down the `Shift` key on your keyboard and click on `Column D` to highlight it too
-* Right click, then click on `Delete`
+* Right click, then click `Delete`
 
 <!-- 
 In Excel, CONCATENATE function can convert the column list to a list in a cell separated by commas. Please do as follows 

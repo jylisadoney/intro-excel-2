@@ -16,9 +16,9 @@ Today, we will [create a Bar Chart](#create-a-bar-chart) that compares each empl
 
 First, let's navigate to `Sheet1` in our workbook.
 * Highlight all of our data
-  * Option 1: Click on `Cell A1`, hold down the `Shift` key on your keyboard, and click on `Cell F23`
-  * Option 2: Click on `Cell A1` and drag to highlight all data **OR**
-  * Option 3: Hit `Ctrl + A` on your keyboard (`Cmd + A` for Mac users)
+  * Option 1: Click `Cell A1`, hold down the `Shift` key on your keyboard, and click `Cell F23`
+  * Option 2: Click `Cell A1` and drag to highlight all data **OR**
+  * Option 3: Hit `Ctrl + A` your keyboard (`Cmd + A` for Mac users)
 
 We can now work on creating our chart.
 * Navigate to the `Insert` tab and the `Charts` section
@@ -32,19 +32,19 @@ Right away, we see that this chart is a **mess** and the visualization is confus
 Since we only want to compare `sales in Q1 and Q2`, we aren't interested in `Total Sales` or `Hire Date`.
 
 To remove `Total Sales` and `Hire Date` from our chart:
-* Click on the chart 
-* Click on the `Funnel Icon` (on a Mac, right click on the chart and click `Select Data`)
+* Click the chart 
+* Click the `Funnel Icon` (on a Mac, right click the chart and click `Select Data`)
 * Under `Series`, click the check-mark next to `Total Sales` and `Hire Date` to uncheck the boxes (on a Mac, under `Series` click to highlight `Total Sales`, then click `Remove` and follow the same steps for `Hire Date`)
-* Click on `Apply` (on a Mac, click OK)
+* Click `Apply` (on a Mac, click OK)
 
 Our chart is looking much better - but including the state names in our chart makes it difficult to read.
 
 To remove `State` names from our chart:
-* Click on the chart
-* Click on the `Funnel Icon` (on a Mac, right click on the chart and click `Select Data`)
-* Click on `Names` (on a Mac, navigate to the `Category (X) axis labels box`)
+* Click the chart
+* Click the `Funnel Icon` (on a Mac, right click the chart and click `Select Data`)
+* Click `Names` (on a Mac, navigate to the `Category (X) axis labels box`)
 * Under `Categories`, select the option for `Column B` (on a Mac, change the cell range to remove any reference to state names, for example: `=Sheet1!$B$2:$B$23`)
-* Click on `Apply` (on a Mac, click OK)
+* Click `Apply` (on a Mac, click OK)
 
 After these two small changes, our chart looks so much better!
 
@@ -52,40 +52,40 @@ After these two small changes, our chart looks so much better!
 Another important part of creating visualizations is to add text that describes the data.
 
 ### Add a chart title
-* Click on the chart 
+* Click the chart 
 * Navigate to the `Design` tab and the `Chart Layouts` section
-* Click on `Add Chart Element`
-* Hover over `Chart Title` and click on `Above Chart`
+* Click `Add Chart Element`
+* Hover over `Chart Title` and click `Above Chart`
 
 We now have a text box that we can use to add a chart title.
 
 To edit the text:
-* Click on the chart
-* Click on the `Chart Title` text box
+* Click the chart
+* Click the `Chart Title` text box
 * Type a title that describes the data
   * Maybe something like `Employee Sales by Quarter`
 
 ### Position the chart legend
-* Click on the chart
+* Click the chart
 * Navigate to the `Design` tab and the `Chart Layouts` section
-* Click on `Add Chart Element`
+* Click `Add Chart Element`
 * Hover over `Legend`
-* Click on `Right`
+* Click `Right`
 
 Our legend is now positioned to the `right` of our `bar chart`.
 
 ### Add a title to the horizontal axis (x-axis)
-* Click on the chart
+* Click the chart
 * Navigate to the `Design` tab and the `Chart Layouts` section
-* Click on `Add Chart Element`
+* Click `Add Chart Element`
 * Hover over `Axis Titles`
-* Click on `Primary Horizontal`
+* Click `Primary Horizontal`
 
 We now have a text box that we can use to describe this axis.
 
 To edit the text:
-* Click on the chart
-* Click on the `Axis Title` text box
+* Click the chart
+* Click the `Axis Title` text box
 * Type a word or phrase that describes this axis
   * Maybe something like `Employee Names`
 

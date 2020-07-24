@@ -28,16 +28,16 @@ The `macro` tool is located under the `Developer` tab in Excel, which is hidden 
 ### [Enable the developer tab](#enable-the-developer-tab)
 
 To enable the `Developer` tab on a PC:
-* Click on `File`
-* Click on `Options`
-* Click on `Customize Ribbon`
+* Click `File`
+* Click `Options`
+* Click `Customize Ribbon`
 * Under `Main Tabs`, click to check the box next to `Developer`
 * Click OK
 
 To enable the `Developer` tab on a Mac:
-* Click on `Excel`
-* Click on `Preferences`
-* Click on `Ribbon & Toolbar`
+* Click `Excel`
+* Click `Preferences`
+* Click `Ribbon & Toolbar`
 * Under `Customize the Ribbon`, click `Main Tabs`, then click to check the box next to `Developer`
 * Click Save
 
@@ -58,11 +58,11 @@ We will focus on `recording a macro` for two types of tasks:
 1. [Apply the PROPER function to a specific column](#apply-the-proper-function-to-a-specific-column)
 
 #### [Format a column](#format-a-column)
-* Click on cell `A1`
+* Click cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`
   * Learn more about the [difference between relative and absolute references](#difference-between-relative-and-absolute-references)
-* Click on `Record Macro`
+* Click `Record Macro`
 * Under `Macro name`, type a name for the macro
   * Example: BookListFormatISBNColumnMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
@@ -73,15 +73,15 @@ We will focus on `recording a macro` for two types of tasks:
 * Click OK to start recording
 
 Now we can record the `BookListFormatISBNColumnMacro` action:
-* Click on the `ISBN column` (or Column E) to highlight it
-* Right click, then click on `Format Cells`
-* Under Category, click on `Number`
+* Click the `ISBN column` (or Column E) to highlight it
+* Right click, then click `Format Cells`
+* Under Category, click `Number`
 * Set the `Decimal Places` to `0`
 * Click OK
 * Resize the column if necessary
-* Click on cell `A1`
+* Click cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
-* Click on `Stop Recording`
+* Click `Stop Recording`
 
 #### [Apply the PROPER function to a specific column](#apply-the-proper-function-to-a-specific-column)
 This macro will include four parts:
@@ -91,11 +91,11 @@ This macro will include four parts:
 * [Part 4: Delete a column](#part-4-delete-a-column)
 
 ##### [Part 1: Insert a new column](#part-1-insert-a-new-column)
-* Click on cell `A1`
+* Click cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
-* If it isn't already selected, click on `Use Relative References`
+* If it isn't already selected, click `Use Relative References`
   * Learn more about the [difference between relative and absolute references](#difference-between-relative-and-absolute-references)
-* Click on `Record Macro`
+* Click `Record Macro`
 * Under `Macro name`, type a name for the macro
   * Example: BookListInsertColumnMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
@@ -105,18 +105,18 @@ This macro will include four parts:
 * Click OK to start recording
 
 Now we can record the `BookListInsertColumnMacro` action:
-* Click on the `Author column` (or Column B) to highlight it
-* Right click, then click on `Insert`
-* Click on cell `A1`
+* Click the `Author column` (or Column B) to highlight it
+* Right click, then click `Insert`
+* Click cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
-* Click on `Stop Recording`
+* Click `Stop Recording`
 
 ##### [Part 2: Insert the PROPER function](#part-2-insert-the-proper-function)
-* Click on cell `A1`
+* Click cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
 * If it isn't already selected, click on `Use Relative References`
   * Learn more about the [difference between relative and absolute references](#difference-between-relative-and-absolute-references)
-* Click on `Record Macro`
+* Click `Record Macro`
 * Under `Macro name`, type a name for the macro
   * Example: BookListProperFunctionMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
@@ -126,25 +126,25 @@ Now we can record the `BookListInsertColumnMacro` action:
 * Click OK to start recording
 
 Now we can record the `BookListProperFunctionMacro` action:
-* Click on `Cell B1`
+* Click `Cell B1`
 * Type `=PROPER(A1)`
   * Option 1: Type `A1` **OR**
-  * Option 2: Click on `A1`
+  * Option 2: Click `A1`
 * Hit `Enter` on your keyboard
-* Click on `Column B` to highlight it
+* Click `Column B` to highlight it
 * Navigate to the `Home` tab and the `Editing` section
-* Click on `Fill`
-* Click on `Down` to copy the forumula to all relevant cells
-* Click on cell `A1`
+* Click `Fill`
+* Click `Down` to copy the forumula to all relevant cells
+* Click cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
-* Click on `Stop Recording`
+* Click `Stop Recording`
 
 ##### [Part 3: Copy and paste values](#part-3-copy-and-paste-values)
-* Click on cell `A1`
+* Click cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
-* If it isn't already selected, click on `Use Relative References`
+* If it isn't already selected, click `Use Relative References`
   * Learn more about the [difference between relative and absolute references](#difference-between-relative-and-absolute-references)
-* Click on `Record Macro`
+* Click `Record Macro`
 * Under `Macro name`, type a name for the macro
   * Example: BookListCopyPasteValuesMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
@@ -154,23 +154,23 @@ Now we can record the `BookListProperFunctionMacro` action:
 * Click OK to start recording
 
 Now we can record the `BookListCopyPasteValuesMacro` action:
-* Click on `Column B` to highlight it
-* Right click, then click on `Copy`
-* Click on `Column A` to highlight it
-* Right click on `Column A` 
-* Click on `Paste Special`
-* Under `Paste`, click on `Values`
+* Click `Column B` to highlight it
+* Right click, then click `Copy`
+* Click `Column A` to highlight it
+* Right click `Column A` 
+* Click `Paste Special`
+* Under `Paste`, click `Values`
   * This will let us copy and paste just the text
 * Click OK
-* Click on cell `A1`
+* Click cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
-* Click on `Stop Recording`
+* Click `Stop Recording`
 
 ##### [Part 4: Delete a column](#part-4-delete-a-column)
-* Click on cell `A1`
+* Click cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
-* Click on `Use Relative References`
-* Click on `Record Macro`
+* Click `Use Relative References`
+* Click `Record Macro`
 * Under `Macro name`, type a name for the macro
   * Example: BookListDeleteDuplicateTitleColumnMacro
 * In the `Store macro in` drop-down, select `Personal Macro Workbook`
@@ -180,22 +180,22 @@ Now we can record the `BookListCopyPasteValuesMacro` action:
 * Click OK to start recording
 
 Now we can record the `BookListDeleteDuplicateTitleColumnMacro` action:
-* Click on the duplicate `Title column` (or Column B) to highlight it
-* Right click, then click on `Delete`
-* Click on cell `A1`
+* Click the duplicate `Title column` (or Column B) to highlight it
+* Right click, then click `Delete`
+* Click cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
-* Click on `Stop Recording`
+* Click `Stop Recording`
 
 ### [Test a macro](#test-a-macro)
 Now that we have recorded these `macros`, let's test them on a new version of the same data.
 
 First, let's download <a href="images/IntroExcel-Part2-SampleTestaMacroWorkbook.xlsx" target="_blank">`IntroExcel-Part2-SampleTestaMacroWorkbook.xlsx`</a>, open it on your computer, and click `enable editing` if prompted.
 
-* Click on cell `A1`
+* Click cell `A1`
 * Navigate to the `Developer` tab and the `Code` section
-* Click on `Macros`
+* Click `Macros`
 * Click to highlight the `BookListDeleteColumnMacro`
-* Click on `Run`
+* Click `Run`
 
 We can then use the same steps to test the other macros:
 * BookListFormatISBNColumnMacro
@@ -212,7 +212,7 @@ To view the `Personal Macro Workbook`
 * Open an Excel workbook
 * Navigate to the `View` tab and the `Window` section (on a Mac, navigate to the `Window` tab) 
 * Click `Unhide`
-* In the `Unhide` window, click on `Personal`
+* In the `Unhide` window, click `Personal`
 * Click OK
 
 To hide the `Personal Macro Workbook`
@@ -229,7 +229,7 @@ To save your changes, click `Save`.
 ### [Delete a macro](#delete-a-macro)
 After following the instructions above to [view the Personal Macro Workbook](#view-the-personal-macro-workbook):
 * Navigate to the `Developer` tab and the `Code` section
-* Click on `Macros`
+* Click `Macros`
 * Click to highlight the macro you want to `delete`
   * Example: BookListDeleteColumnMacro
 * Click `Delete`
@@ -241,7 +241,7 @@ When you `delete a macro`, you must save your changes to `PERSONAL.XLSB` when pr
 * Record `separate macros` for each task
 * Use `relative references`
   * Learn more about the [difference between relative and absolute references](#difference-between-relative-and-absolute-references)
-* Click on cell `A1` before you `start and stop` recording to keep `relative references` consistent
+* Click cell `A1` before you `start and stop` recording to keep `relative references` consistent
 * Create `unique` macro names that are recognizable
   * Add a description to the description field
 
@@ -261,13 +261,13 @@ In contrast, recording a macro with `absolute references` allows you to only `ru
 ### [Find your Personal Macro Workbook file location](#find-your-personal-macro-workbook-file-location)
 * Open `File Explorer` (or `Finder` on a Mac)
 * Navigate to `Local Disk (C:)`
-* Double-click on `Users`
-* Double-click on your `username`
+* Double-click `Users`
+* Double-click your `username`
 * At the top of the `File Explorer` window, navigate to the `View` tab and the `Show/hide` section
 * Check the box for `Hidden items`
-* Double-click on `AppData`
-* Double-click on `Roaming`
-* Double-click on `Microsoft`
-* Double-click on `Excel`
-* Double-click on `XLSTART`
+* Double-click `AppData`
+* Double-click `Roaming`
+* Double-click `Microsoft`
+* Double-click `Excel`
+* Double-click `XLSTART`
 * Navigate to your `Personal Macro Workbook` (file name = PERSONAL.XLSB)

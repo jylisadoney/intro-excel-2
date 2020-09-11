@@ -2,7 +2,7 @@
 title: Insert Advanced Functions
 nav: true
 ---
-Please download <a href="images/IntroExcel-Part2-SampleWorkbook.xlsx" target="_blank">`IntroExcel-Part2-SampleWorkbook.xlsx`</a> to follow along with workshop activities.
+Please download <a href="files/IntroExcel-Part2-SampleWorkbook.xlsx" target="_blank">`IntroExcel-Part2-SampleWorkbook.xlsx`</a> to follow along with workshop activities.
 
 **Throughout this workshop `Click` refers to a `Left Click` with your mouse**
 

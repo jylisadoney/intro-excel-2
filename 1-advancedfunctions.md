@@ -112,7 +112,7 @@ In Excel, CONCATENATE function can convert the column list to a list in a cell s
 3. Remove curly braces {and } from the formula, and press the Enter key.
 Now, you can see all values in the column list been converted a list in a cell and separated by comma.
 Link: https://www.extendoffice.com/documents/excel/1544-excel-convert-column-to-comma-separated-list.html 
---!>
+-->
 
 ## More Help
 To learn more about `functions`, open Excel and navigate to the `Formulas` tab and the `Function Library` section. 

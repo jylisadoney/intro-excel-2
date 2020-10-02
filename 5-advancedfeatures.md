@@ -22,7 +22,7 @@ To use templates, we first have to `set the default personal templates location`
 * Click `File` then click `Options`
 * Click the `Save` tab
 * Navigate to the `Save workbooks` section
-* Navigate to the `Deafult personal templates location` box
+* Navigate to the `Default personal templates location` box
 * Type this file path: `C:\Users\[UserName]\Documents\Custom Office Templates`
   * Replace [User Name] with your user name
 * Click `OK`

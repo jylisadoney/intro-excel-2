@@ -51,7 +51,7 @@ Let's say we want to create a PivotTable to see whether students who attended `S
 
 * Navigate to the PivotTables Fields box
   * If this box disappears, `click` the PivotTable
-  * Naviate to the `Analyze` tab and the `Show` section (on a Mac, navigate to the `PivotTable` tab and the `View` section)
+  * Navigate to the `Analyze` tab and the `Show` section (on a Mac, navigate to the `PivotTable` tab and the `View` section)
   * Click `Field List` (on a Mac, click `Builder`)
 * Click `Test 1` and `drag and drop` it in the `VALUES` section 
   * We can see that this `field` is now called `Sum of Test 1`

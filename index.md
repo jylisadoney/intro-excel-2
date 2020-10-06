@@ -27,6 +27,6 @@ Need a refresher? Visit the <a href="https://jylisadoney.github.io/intro-excel-1
 >
 > images and content: cc-by-sa <a href="https://github.com/{{ site.github_username }}">{{ site.author }}</a> 
 
-> published in {{ site.pub_year}}, updated in {{ site.update_year}}. (get [source code]({{ site.repo }}))
+> last updated {{ site.update_year}} (get [source code]({{ site.repo }}))
 >
 > <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License" /></a>
